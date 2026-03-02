@@ -1,0 +1,378 @@
+================================================================================
+                    FLUJO DE EJECUCIÓN DE LA APLICACIÓN
+                    ===================================
+================================================================================
+
+Este documento explica el orden exacto de ejecución y cómo fluyen los datos
+dependiendo de la acción que se realice.
+
+================================================================================
+PARTE 1: ARRANQUE DE LA APLICACIÓN (npm run dev)
+================================================================================
+
+ORDEN DE EJECUCIÓN AL INICIAR:
+
+    1. package.json
+       └── Lee el script "dev" → ejecuta: node --watch src/server.js
+    
+    2. src/server.js (PUNTO DE ENTRADA)
+       │
+       ├── Importa: connectDB (de config/mondoDB.js)
+       ├── Importa: pool (de config/postgres.js)
+       ├── Importa: app (de app.js)
+       │
+       ├── PASO 1: Conecta a MongoDB
+       │   └── connectDB() → mongoose.connect(MONGO_URI)
+       │
+       ├── PASO 2: Conecta a PostgreSQL
+       │   └── pool.connect() → obtiene cliente
+       │
+       ├── PASO 3: Crea las tablas SQL si no existen
+       │   └── client.query(CREATE TABLE IF NOT EXISTS...)
+       │       - student, department, profesor, course, enrollments
+       │
+       ├── PASO 4: Libera el cliente PostgreSQL
+       │   └── client.release()
+       │
+       └── PASO 5: Inicia el servidor HTTP
+           └── app.listen(PORT) → "Server running on http://localhost:3000"
+
+    3. src/app.js (SE CARGA EN PASO 2 VÍA IMPORT)
+       │
+       ├── Importa: express
+       ├── Crea: const app = express()
+       │
+       ├── MIDDLEWARES (orden importa):
+       │   ├── express.json() → parsea body JSON
+       │   └── express.urlencoded() → parsea formularios
+       │
+       └── RUTAS (se registran en este orden):
+           ├── /api/simulacro → migrate.js
+           ├── /api/courses   → courses.js
+           ├── /api/reports   → reports.js
+           └── /api/students  → students.js
+
+================================================================================
+PARTE 2: FLUJO POR ENDPOINT - ¿QUÉ PASA CUANDO HAGO UN REQUEST?
+================================================================================
+
+------------------------------------------------------------------------------
+ENDPOINT: POST /api/simulacro/migrate (MIGRACIÓN ETL)
+------------------------------------------------------------------------------
+
+    Cliente (Postman/cURL)
+        │
+        ▼
+    app.js → /api/simulacro → routes/migrate.js
+        │
+        ▼
+    migrate.js → router.post('/migrate')
+        │
+        ▼
+    services/migrateService.js → migrateDataFromCSV()
+        │
+        ├── 1. Lee archivo CSV (fs.createReadStream + csv-parser)
+        │
+        ├── 2. Por cada fila del CSV:
+        │   │
+        │   ├── 2a. POSTGRESQL (datos normalizados):
+        │   │   ├── INSERT INTO department (ON CONFLICT)
+        │   │   ├── INSERT INTO profesor (ON CONFLICT)
+        │   │   ├── INSERT INTO student (ON CONFLICT)
+        │   │   ├── INSERT INTO course (ON CONFLICT)
+        │   │   └── INSERT INTO enrollments (ON CONFLICT)
+        │   │
+        │   └── 2b. MONGODB (documento desnormalizado):
+        │       └── Transcript.findOneAndUpdate() con upsert
+        │           - Agrupa historial académico por estudiante
+        │
+        └── 3. Retorna contadores de registros insertados
+        │
+        ▼
+    Response: { message: "Migration completed", counters: {...} }
+
+    ARCHIVOS INVOLUCRADOS EN ORDEN:
+    1. routes/migrate.js
+    2. services/migrateService.js
+    3. config/postgres.js (pool de conexiones)
+    4. models/transcripts.js (schema MongoDB)
+    5. config/mondoDB.js (conexión si no está activa)
+
+------------------------------------------------------------------------------
+ENDPOINT: GET /api/courses (LISTAR CURSOS)
+------------------------------------------------------------------------------
+
+    Cliente
+        │
+        ▼
+    app.js → /api/courses → routes/courses.js
+        │
+        ▼
+    courses.js → router.get('/')
+        │
+        ▼
+    services/coursesServices.js → getAllCourses()
+        │
+        ├── pool.connect() → obtiene cliente PostgreSQL
+        ├── BEGIN transaction
+        ├── SELECT c.*, p.name FROM course c JOIN profesor p...
+        ├── COMMIT
+        └── client.release()
+        │
+        ▼
+    Response: { message: "...", courses: [...] }
+
+    ARCHIVOS INVOLUCRADOS:
+    1. routes/courses.js
+    2. services/coursesServices.js
+    3. config/postgres.js
+
+------------------------------------------------------------------------------
+ENDPOINT: GET /api/courses/:code (BUSCAR POR CÓDIGO)
+------------------------------------------------------------------------------
+
+    Cliente
+        │
+        ▼
+    app.js → /api/courses/:code → routes/courses.js
+        │
+        ▼
+    courses.js → router.get('/:code')
+        │
+        ├── req.params.code → extrae el código de la URL
+        │
+        ▼
+    services/coursesServices.js → getCourseByCode(code)
+        │
+        ├── SELECT ... WHERE code = $1
+        └── Si no encuentra → return null
+        │
+        ▼
+    Response: { course: {...} } ó { message: "Not found" }
+
+------------------------------------------------------------------------------
+ENDPOINT: PATCH /api/courses/:code (ACTUALIZAR CURSO)
+------------------------------------------------------------------------------
+
+    Cliente (envía JSON en body)
+        │
+        ▼
+    app.js → express.json() parsea el body
+        │
+        ▼
+    routes/courses.js → router.patch('/:code')
+        │
+        ├── req.params.code → código del curso
+        ├── req.body → campos a actualizar {name, credits}
+        │
+        ▼
+    services/coursesServices.js → updateCourseByCode(code, data)
+        │
+        ├── Construye query dinámico: SET campo1=$1, campo2=$2...
+        ├── UPDATE course WHERE code = $n
+        └── COMMIT
+        │
+        ▼
+    Response: { message: "Course updated" }
+
+------------------------------------------------------------------------------
+ENDPOINT: GET /api/reports/tuition-revenue (REPORTE FINANCIERO)
+------------------------------------------------------------------------------
+
+    Cliente
+        │
+        ▼
+    app.js → /api/reports → routes/reports.js
+        │
+        ▼
+    reports.js → router.get('/tuition-revenue')
+        │
+        ▼
+    controller/reportsController.js → getReports()
+        │
+        ▼
+    services/reportsServices.js → getReport()
+        │
+        ├── SQL con múltiples JOINs:
+        │   SELECT d.name, SUM(e.tuition_fee)
+        │   FROM enrollments e
+        │   JOIN course c ON e.course_code = c.code
+        │   JOIN profesor p ON c.profesor_id = p.id
+        │   JOIN department d ON p.department_id = d.id
+        │   GROUP BY d.name
+        │
+        ▼
+    Response: { report: [{ facultad: "...", totalrecaudo: "..." }] }
+
+    ARCHIVOS INVOLUCRADOS:
+    1. routes/reports.js
+    2. controller/reportsController.js (opcional, delegación)
+    3. services/reportsServices.js
+    4. config/postgres.js
+
+------------------------------------------------------------------------------
+ENDPOINT: GET /api/students/:email/transcript (KARDEX - MONGODB)
+------------------------------------------------------------------------------
+
+    Cliente
+        │
+        ▼
+    app.js → /api/students → routes/students.js
+        │
+        ▼
+    students.js → router.get('/:email/transcript')
+        │
+        ├── req.params.email → email del estudiante
+        │
+        ▼
+    services/studentsService.js → getTranscriptByEmail(email)
+        │
+        ├── Transcript.findOne({ studentEmail: email })
+        │   (búsqueda en MongoDB - muy rápida O(1))
+        │
+        └── Documento contiene TODO el historial embebido
+        │
+        ▼
+    Response: { transcript: { studentEmail, academicHistory: [...] } }
+
+    ARCHIVOS INVOLUCRADOS:
+    1. routes/students.js
+    2. services/studentsService.js
+    3. models/transcripts.js (schema Mongoose)
+    4. config/mondoDB.js
+
+================================================================================
+PARTE 3: DIAGRAMA GENERAL DE CAPAS
+================================================================================
+
+    ┌─────────────────────────────────────────────────────────────────┐
+    │                         CLIENTE                                 │
+    │              (Postman, Browser, Frontend App)                   │
+    └─────────────────────────────────────────────────────────────────┘
+                                   │
+                                   ▼ HTTP Request
+    ┌─────────────────────────────────────────────────────────────────┐
+    │                     server.js (Entry Point)                     │
+    │              Inicializa conexiones y arranca Express            │
+    └─────────────────────────────────────────────────────────────────┘
+                                   │
+                                   ▼
+    ┌─────────────────────────────────────────────────────────────────┐
+    │                        app.js (Express)                         │
+    │                   Middlewares + Router principal                │
+    └─────────────────────────────────────────────────────────────────┘
+                                   │
+                    ┌──────────────┼──────────────┐
+                    ▼              ▼              ▼
+    ┌────────────────────┐ ┌────────────┐ ┌────────────────┐
+    │    routes/*.js     │ │  routes/*  │ │   routes/*     │
+    │  Define endpoints  │ │            │ │                │
+    └────────────────────┘ └────────────┘ └────────────────┘
+                    │              │              │
+                    ▼              ▼              ▼
+    ┌─────────────────────────────────────────────────────────────────┐
+    │                      services/*.js                              │
+    │                   LÓGICA DE NEGOCIO                             │
+    │            (Queries SQL, operaciones MongoDB)                   │
+    └─────────────────────────────────────────────────────────────────┘
+                    │                              │
+                    ▼                              ▼
+    ┌───────────────────────────┐    ┌───────────────────────────────┐
+    │     config/postgres.js    │    │     config/mondoDB.js         │
+    │      (Pool conexiones)    │    │     (Mongoose connect)        │
+    └───────────────────────────┘    └───────────────────────────────┘
+                    │                              │
+                    ▼                              ▼
+    ┌───────────────────────────┐    ┌───────────────────────────────┐
+    │       POSTGRESQL          │    │         MONGODB               │
+    │   (Datos relacionales)    │    │   (Documentos embebidos)      │
+    │   Puerto: 5434            │    │   Puerto: 27018               │
+    └───────────────────────────┘    └───────────────────────────────┘
+
+================================================================================
+PARTE 4: SI QUIERO HACER UN CAMBIO, ¿QUÉ ARCHIVO MODIFICO?
+================================================================================
+
+    ┌────────────────────────────────┬──────────────────────────────────┐
+    │ ¿QUÉ QUIERO CAMBIAR?           │ ¿QUÉ ARCHIVO MODIFICO?           │
+    ├────────────────────────────────┼──────────────────────────────────┤
+    │ Puerto del servidor            │ .env (PORT=3000)                 │
+    │ Conexión a PostgreSQL          │ .env (POSTGRES_URI) o            │
+    │                                │ config/postgres.js               │
+    │ Conexión a MongoDB             │ .env (MONGO_URI) o               │
+    │                                │ config/mondoDB.js                │
+    │ Agregar una tabla nueva        │ server.js (en la función         │
+    │                                │ createTables del query)          │
+    │ Agregar un nuevo endpoint      │ 1. services/nuevoService.js      │
+    │                                │ 2. routes/nuevaRuta.js           │
+    │                                │ 3. app.js (registrar ruta)       │
+    │ Cambiar lógica de negocio      │ services/*.js                    │
+    │ Cambiar respuesta HTTP         │ routes/*.js                      │
+    │ Cambiar schema MongoDB         │ models/*.js                      │
+    │ Cambiar datos de migración     │ data/*.csv + migrateService.js   │
+    │ Cambiar configuración Docker   │ docker-compose.yml               │
+    │ Agregar dependencia npm        │ package.json + npm install       │
+    └────────────────────────────────┴──────────────────────────────────┘
+
+================================================================================
+PARTE 5: ORDEN CORRECTO PARA AGREGAR UNA NUEVA FUNCIONALIDAD
+================================================================================
+
+    Ejemplo: Agregar endpoint GET /api/professors
+
+    PASO 1 → services/professorsService.js
+             (Crear la lógica de negocio y queries SQL)
+
+    PASO 2 → routes/professors.js
+             (Crear el Router y definir el endpoint)
+
+    PASO 3 → app.js
+             (Importar y registrar: app.use('/api/professors', router))
+
+    PASO 4 → Probar con Postman
+             GET http://localhost:3000/api/professors
+
+================================================================================
+PARTE 6: FLUJO DE DATOS EN LA MIGRACIÓN (MÁS DETALLADO)
+================================================================================
+
+    CSV File
+        │
+        ▼
+    ┌─────────────────────────────────────────────────────────────────┐
+    │  FILA DEL CSV:                                                  │
+    │  student_name, student_email, student_phone, course_code,       │
+    │  course_name, credits, department_name, profesor_name,          │
+    │  profesor_email, semester, grade, tuition_fee                   │
+    └─────────────────────────────────────────────────────────────────┘
+        │
+        │   Para cada fila:
+        ▼
+    ┌───────────────────────────────────────────────────────────────┐
+    │ POSTGRESQL (5 INSERTs con ON CONFLICT DO UPDATE)              │
+    │                                                               │
+    │   1. INSERT department → obtiene department_id                │
+    │   2. INSERT profesor → usa department_id, obtiene profesor_id │
+    │   3. INSERT student → obtiene student_id                      │
+    │   4. INSERT course → usa profesor_id                          │
+    │   5. INSERT enrollments → usa student_id + course_code        │
+    └───────────────────────────────────────────────────────────────┘
+        │
+        │   Simultáneamente:
+        ▼
+    ┌───────────────────────────────────────────────────────────────┐
+    │ MONGODB (findOneAndUpdate con upsert)                         │
+    │                                                               │
+    │   Transcript.findOneAndUpdate(                                │
+    │     { studentEmail: email },     ← busca por email            │
+    │     {                                                         │
+    │       $set: { studentName, summary },                         │
+    │       $push: { academicHistory: curso }  ← agrega al array    │
+    │     },                                                        │
+    │     { upsert: true }             ← crea si no existe          │
+    │   )                                                           │
+    └───────────────────────────────────────────────────────────────┘
+
+================================================================================
+                              FIN DEL DOCUMENTO
+================================================================================

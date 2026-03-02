@@ -9,16 +9,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JuanEstebanHG12/EjercicioBD.git"
+    "url": "git+https://github.com/Cayuro/gestionUniversidad_documentado.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
   "bugs": {
-    "url": "https://github.com/JuanEstebanHG12/EjercicioBD/issues"
+    "url": "https://github.com/Cayuro/gestionUniversidad_documentado/issues"
   },
-  "homepage": "https://github.com/JuanEstebanHG12/EjercicioBD#readme",
+  "homepage": "https://github.com/Cayuro/gestionUniversidad_documentado#readme",
   "dependencies": {
     "csv-parse": "^6.1.0",
     "csv-parser": "^3.2.0",
