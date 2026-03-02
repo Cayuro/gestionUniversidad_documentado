@@ -1,0 +1,602 @@
+================================================================================
+            ERRORES COMUNES Y SOLUCIONES RÁPIDAS - GUÍA DE SUPERVIVENCIA
+================================================================================
+
+Este documento te salvará tiempo en la evaluación. Cuando algo falle, busca aquí
+el error y aplica la solución.
+
+================================================================================
+SECCIÓN 1: ERRORES DE DOCKER Y BASES DE DATOS
+================================================================================
+
+------------------------------------------------------------------------------
+ERROR: "port is already allocated" / "puerto ocupado"
+------------------------------------------------------------------------------
+SÍNTOMA:
+    docker-compose up -d
+    Error: bind: address already in use
+
+CAUSA: Otra instancia de Docker o un servicio usa ese puerto
+
+SOLUCIÓN RÁPIDA:
+    # Opción 1: Matar todo Docker
+    docker-compose down
+    docker stop $(docker ps -aq)
+    docker-compose up -d
+
+    # Opción 2: Cambiar puerto en docker-compose.yml
+    ports:
+      - "5435:5432"   # Cambiar 5434 por 5435
+    
+    # Y actualizar .env
+    POSTGRES_URI="postgresql://user:pass@localhost:5435/db"
+
+------------------------------------------------------------------------------
+ERROR: "ECONNREFUSED" / "Connection refused"
+------------------------------------------------------------------------------
+SÍNTOMA:
+    Error: connect ECONNREFUSED 127.0.0.1:5434
+
+CAUSA: Docker no está corriendo o el contenedor no inició
+
+SOLUCIÓN:
+    1. Verificar que Docker Desktop esté abierto
+    2. docker ps   # Ver si hay contenedores corriendo
+    3. docker-compose up -d
+    4. Esperar 5-10 segundos (MongoDB tarda en iniciar)
+
+------------------------------------------------------------------------------
+ERROR: "password authentication failed"
+------------------------------------------------------------------------------
+SÍNTOMA:
+    error: password authentication failed for user "usuario"
+
+CAUSA: Las credenciales en .env no coinciden con docker-compose.yml
+
+SOLUCIÓN:
+    # Verificar que coincidan:
+    
+    # En docker-compose.yml:
+    environment:
+      POSTGRES_USER: miusuario
+      POSTGRES_PASSWORD: mipassword
+      POSTGRES_DB: mibasededatos
+    
+    # En .env (DEBEN SER IGUALES):
+    POSTGRES_URI="postgresql://miusuario:mipassword@localhost:5434/mibasededatos"
+
+    # Si cambiaste credenciales, borra volúmenes y recrea:
+    docker-compose down -v
+    docker-compose up -d
+
+------------------------------------------------------------------------------
+ERROR: "MongooseServerSelectionError" / "MongoDB no conecta"
+------------------------------------------------------------------------------
+SÍNTOMA:
+    MongooseServerSelectionError: connect ECONNREFUSED
+
+CAUSA: MongoDB no está listo o URI incorrecta
+
+SOLUCIÓN:
+    1. Esperar 10 segundos después de docker-compose up
+    2. Verificar URI en .env:
+       MONGO_URI="mongodb://localhost:27018/nombreDB"
+       # NO incluye usuario:password a menos que lo configures
+    
+    3. Verificar que el contenedor esté corriendo:
+       docker logs mongo-container
+
+================================================================================
+SECCIÓN 2: ERRORES DE SQL (PostgreSQL)
+================================================================================
+
+------------------------------------------------------------------------------
+ERROR: "relation does not exist"
+------------------------------------------------------------------------------
+SÍNTOMA:
+    error: relation "student" does not exist
+
+CAUSA: Las tablas no se crearon
+
+SOLUCIÓN:
+    1. Reiniciar el servidor (las crea automáticamente en server.js)
+    2. O crear manualmente:
+       docker exec -it postgres-container psql -U usuario -d basededatos
+       \dt   -- ver tablas existentes
+
+------------------------------------------------------------------------------
+ERROR: "column does not exist"
+------------------------------------------------------------------------------
+SÍNTOMA:
+    error: column "student_id" does not exist
+
+CAUSA: 
+    - Nombre de columna mal escrito
+    - La tabla tiene nombres diferentes
+
+SOLUCIÓN:
+    1. Verificar nombres EXACTOS en el schema:
+       docker exec -it postgres-container psql -U usuario -d db
+       \d student   -- describe la tabla student
+
+    2. Errores comunes de nombres:
+       ❌ student_id    →  ✅ id
+       ❌ studentId     →  ✅ student_id (depende del schema)
+       ❌ Name          →  ✅ name (PostgreSQL es case-sensitive con comillas)
+
+------------------------------------------------------------------------------
+ERROR: "duplicate key value violates unique constraint"
+------------------------------------------------------------------------------
+SÍNTOMA:
+    error: duplicate key value violates unique constraint "student_email_key"
+
+CAUSA: Intentas insertar un valor que ya existe en una columna UNIQUE
+
+SOLUCIÓN:
+    Usar ON CONFLICT:
+    
+    INSERT INTO student (name, email, phone)
+    VALUES ($1, $2, $3)
+    ON CONFLICT (email) DO UPDATE SET 
+        name = EXCLUDED.name,
+        phone = EXCLUDED.phone;
+
+    IMPORTANTE: La columna en ON CONFLICT debe tener constraint UNIQUE
+
+------------------------------------------------------------------------------
+ERROR: "syntax error at or near RETURNING" en SELECT
+------------------------------------------------------------------------------
+SÍNTOMA:
+    error: syntax error at or near "RETURNING"
+
+CAUSA: RETURNING solo funciona con INSERT, UPDATE, DELETE. NO con SELECT.
+
+SOLUCIÓN:
+    ❌ INCORRECTO:
+    SELECT * FROM student RETURNING *;
+    
+    ✅ CORRECTO:
+    SELECT * FROM student;
+    
+    // RETURNING es para obtener datos después de modificar:
+    INSERT INTO student (...) VALUES (...) RETURNING id;
+    UPDATE student SET ... RETURNING *;
+    DELETE FROM student WHERE ... RETURNING *;
+
+------------------------------------------------------------------------------
+ERROR: "invalid input syntax for type integer"
+------------------------------------------------------------------------------
+SÍNTOMA:
+    error: invalid input syntax for type integer: "abc"
+
+CAUSA: Envías un string donde se espera número
+
+SOLUCIÓN:
+    // Convertir antes de insertar:
+    const credits = parseInt(row.credits, 10);
+    const tuition = parseInt(row.tuition_fee, 10);
+    const grade = parseFloat(row.grade);  // Para decimales
+    
+    // Verificar que no sea NaN:
+    if (isNaN(credits)) {
+        console.error('credits no es número:', row.credits);
+    }
+
+------------------------------------------------------------------------------
+ERROR: "null value in column violates not-null constraint"
+------------------------------------------------------------------------------
+SÍNTOMA:
+    error: null value in column "name" violates not-null constraint
+
+CAUSA: Intentas insertar NULL en columna NOT NULL
+
+SOLUCIÓN:
+    1. Verificar que el valor exista:
+       console.log('valor:', row.student_name);  // Debug
+    
+    2. El nombre de la columna en el CSV puede ser diferente:
+       ❌ row.studentName
+       ✅ row.student_name
+       ✅ row['student_name']
+    
+    3. Validar antes de insertar:
+       if (!row.student_name) {
+           console.error('Fila sin nombre:', row);
+           continue;
+       }
+
+------------------------------------------------------------------------------
+ERROR: "foreign key violation"
+------------------------------------------------------------------------------
+SÍNTOMA:
+    error: insert or update on table "course" violates foreign key constraint
+
+CAUSA: Intentas referenciar un ID que no existe en la tabla padre
+
+SOLUCIÓN:
+    ORDEN DE INSERCIÓN IMPORTA:
+    1. PRIMERO: Tablas sin foreign keys (department, student)
+    2. DESPUÉS: Tablas que referencian (profesor → department)
+    3. DESPUÉS: Tablas que referencian otras (course → profesor)
+    4. ÚLTIMO: Tablas con múltiples FK (enrollments → student, course)
+
+================================================================================
+SECCIÓN 3: ERRORES DE JavaScript / Node.js
+================================================================================
+
+------------------------------------------------------------------------------
+ERROR: "Cannot use import statement outside a module"
+------------------------------------------------------------------------------
+SÍNTOMA:
+    SyntaxError: Cannot use import statement outside a module
+
+CAUSA: Node no sabe que usas ES Modules
+
+SOLUCIÓN:
+    En package.json agregar:
+    {
+      "type": "module",
+      ...
+    }
+
+------------------------------------------------------------------------------
+ERROR: "SyntaxError: Unexpected token 'export'"
+------------------------------------------------------------------------------
+SÍNTOMA:
+    SyntaxError: Unexpected token 'export'
+
+CAUSA: Mismo problema que arriba
+
+SOLUCIÓN: Agregar "type": "module" en package.json
+
+------------------------------------------------------------------------------
+ERROR: "Cannot find module" / "Module not found"
+------------------------------------------------------------------------------
+SÍNTOMA:
+    Error: Cannot find module './services/miServicio.js'
+
+CAUSAS Y SOLUCIONES:
+
+    1. Olvidaste la extensión .js:
+       ❌ import { fn } from './services/miServicio'
+       ✅ import { fn } from './services/miServicio.js'
+
+    2. Ruta incorrecta:
+       ❌ import { fn } from 'services/miServicio.js'     // Sin ./
+       ✅ import { fn } from './services/miServicio.js'   // Con ./
+
+    3. Archivo no existe:
+       - Verificar que el archivo existe
+       - Verificar mayúsculas/minúsculas (Linux es case-sensitive)
+
+------------------------------------------------------------------------------
+ERROR: "X is not a function"
+------------------------------------------------------------------------------
+SÍNTOMA:
+    TypeError: migrateDataFromCSV is not a function
+
+CAUSAS Y SOLUCIONES:
+
+    1. Export incorrecto:
+       // En el servicio:
+       ❌ export default function migrateDataFromCSV() {...}
+       
+       // Y en el import:
+       ❌ import { migrateDataFromCSV } from './service.js'
+       
+       // SOLUCIÓN - Consistencia:
+       // Opción A (named export):
+       export function migrateDataFromCSV() {...}
+       import { migrateDataFromCSV } from './service.js'
+       
+       // Opción B (default export):
+       export default function migrateDataFromCSV() {...}
+       import migrateDataFromCSV from './service.js'  // Sin llaves
+
+    2. Nombre mal escrito:
+       ❌ import { migrateDataFromCsv } from './service.js'  // Csv vs CSV
+       ✅ import { migrateDataFromCSV } from './service.js'
+
+------------------------------------------------------------------------------
+ERROR: "await is only valid in async functions"
+------------------------------------------------------------------------------
+SÍNTOMA:
+    SyntaxError: await is only valid in async functions
+
+CAUSA: Usas await fuera de función async
+
+SOLUCIÓN:
+    ❌ INCORRECTO:
+    router.get('/', (req, res) => {
+        const data = await getData();  // ERROR
+    });
+    
+    ✅ CORRECTO:
+    router.get('/', async (req, res) => {  // Agregar async
+        const data = await getData();
+    });
+
+------------------------------------------------------------------------------
+ERROR: Promesa no resuelta / datos undefined
+------------------------------------------------------------------------------
+SÍNTOMA:
+    console.log(data);  // undefined o Promise { <pending> }
+
+CAUSA: Olvidaste await
+
+SOLUCIÓN:
+    ❌ const data = getData();           // Retorna Promise, no datos
+    ✅ const data = await getData();     // Espera y retorna datos
+
+------------------------------------------------------------------------------
+ERROR: "client.query is not a function" / pool mal usado
+------------------------------------------------------------------------------
+SÍNTOMA:
+    TypeError: client.query is not a function
+
+CAUSA: No obtuviste el cliente correctamente
+
+SOLUCIÓN:
+    ❌ INCORRECTO:
+    const client = pool;
+    await client.query('...');
+    
+    ✅ CORRECTO:
+    const client = await pool.connect();
+    try {
+        await client.query('...');
+    } finally {
+        client.release();
+    }
+
+================================================================================
+SECCIÓN 4: ERRORES DE EXPRESS / HTTP
+================================================================================
+
+------------------------------------------------------------------------------
+ERROR: "Cannot GET /api/courses"
+------------------------------------------------------------------------------
+SÍNTOMA:
+    404 Cannot GET /api/courses
+
+CAUSAS Y SOLUCIONES:
+
+    1. Ruta no registrada en app.js:
+       // Verificar que existe:
+       import coursesRouter from './routes/courses.js';
+       app.use('/api/courses', coursesRouter);
+
+    2. Método HTTP incorrecto:
+       // Si definiste POST pero llamas con GET:
+       router.post('/');   // Solo responde a POST
+       // Pero haces GET en Postman → 404
+
+    3. Ruta mal escrita:
+       ❌ /api/course    (singular)
+       ✅ /api/courses   (como lo registraste)
+
+------------------------------------------------------------------------------
+ERROR: "req.body is undefined"
+------------------------------------------------------------------------------
+SÍNTOMA:
+    console.log(req.body);  // undefined
+
+CAUSA: Falta middleware para parsear JSON
+
+SOLUCIÓN:
+    // En app.js, ANTES de las rutas:
+    app.use(express.json());
+    app.use(express.urlencoded({ extended: true }));
+    
+    // DESPUÉS registrar rutas:
+    app.use('/api/courses', coursesRouter);
+
+------------------------------------------------------------------------------
+ERROR: "Headers already sent"
+------------------------------------------------------------------------------
+SÍNTOMA:
+    Error: Cannot set headers after they are sent to the client
+
+CAUSA: Envías dos respuestas
+
+SOLUCIÓN:
+    ❌ INCORRECTO:
+    router.get('/', async (req, res) => {
+        res.json({ data: 'uno' });
+        res.json({ data: 'dos' });  // ERROR: ya enviaste respuesta
+    });
+    
+    ✅ CORRECTO (usar return):
+    router.get('/', async (req, res) => {
+        if (error) {
+            return res.status(400).json({ error });  // return detiene ejecución
+        }
+        res.json({ data });
+    });
+
+------------------------------------------------------------------------------
+ERROR: Request se queda cargando infinitamente
+------------------------------------------------------------------------------
+SÍNTOMA:
+    Postman muestra "Sending request..." para siempre
+
+CAUSA: Nunca enviaste respuesta
+
+SOLUCIÓN:
+    ❌ INCORRECTO:
+    router.get('/', async (req, res) => {
+        const data = await getData();
+        // Olvidaste res.json()
+    });
+    
+    ✅ CORRECTO:
+    router.get('/', async (req, res) => {
+        const data = await getData();
+        res.json({ data });  // SIEMPRE enviar respuesta
+    });
+
+================================================================================
+SECCIÓN 5: ERRORES DE MONGODB / MONGOOSE
+================================================================================
+
+------------------------------------------------------------------------------
+ERROR: "Model.find is not a function"
+------------------------------------------------------------------------------
+SÍNTOMA:
+    TypeError: Transcript.find is not a function
+
+CAUSA: Exportaste el schema, no el modelo
+
+SOLUCIÓN:
+    ❌ INCORRECTO:
+    const transcriptSchema = new Schema({...});
+    export default transcriptSchema;  // Exporta schema
+    
+    ✅ CORRECTO:
+    const transcriptSchema = new Schema({...});
+    const Transcript = mongoose.model('Transcript', transcriptSchema);
+    export default Transcript;  // Exporta el MODELO
+
+------------------------------------------------------------------------------
+ERROR: "Cast to ObjectId failed"
+------------------------------------------------------------------------------
+SÍNTOMA:
+    CastError: Cast to ObjectId failed for value "email@test.com"
+
+CAUSA: Buscas por _id pero pasas otro valor
+
+SOLUCIÓN:
+    ❌ INCORRECTO:
+    await Transcript.findById(email);  // findById espera ObjectId
+    
+    ✅ CORRECTO:
+    await Transcript.findOne({ studentEmail: email });  // Buscar por campo
+
+------------------------------------------------------------------------------
+ERROR: Documento no se actualiza con $push
+------------------------------------------------------------------------------
+SÍNTOMA:
+    El array no crece, se queda vacío
+
+CAUSA: Sintaxis incorrecta de findOneAndUpdate
+
+SOLUCIÓN:
+    ✅ CORRECTO:
+    await Transcript.findOneAndUpdate(
+        { studentEmail: email },           // filtro
+        { 
+            $set: { studentName: name },   // sobrescribir campos
+            $push: { academicHistory: {    // agregar al array
+                courseCode: code,
+                grade: grade
+            }}
+        },
+        { upsert: true, new: true }        // crear si no existe
+    );
+
+================================================================================
+SECCIÓN 6: ERRORES DE CSV / MIGRACIÓN
+================================================================================
+
+------------------------------------------------------------------------------
+ERROR: "ENOENT: no such file or directory"
+------------------------------------------------------------------------------
+SÍNTOMA:
+    Error: ENOENT: no such file or directory, open './data/archivo.csv'
+
+SOLUCIÓN:
+    1. Verificar que el archivo existe:
+       ls data/   # Ver archivos en carpeta data
+    
+    2. Verificar ruta en .env:
+       FILE_DATA_CSV="./data/nombre_exacto.csv"
+    
+    3. La ruta es relativa a donde ejecutas node, no al archivo .js
+
+------------------------------------------------------------------------------
+ERROR: Datos vienen undefined del CSV
+------------------------------------------------------------------------------
+SÍNTOMA:
+    console.log(row.student_name);  // undefined
+
+CAUSA: El nombre de la columna en el CSV es diferente
+
+SOLUCIÓN:
+    1. Abrir el CSV y ver los headers exactos:
+       - Puede tener espacios: "student name" vs "student_name"
+       - Puede tener mayúsculas: "Student_Name" vs "student_name"
+    
+    2. Acceder con la sintaxis correcta:
+       row['student name']    // Si tiene espacio
+       row['Student_Name']    // Si tiene mayúsculas
+    
+    3. Debug: imprimir las keys
+       console.log(Object.keys(row));
+
+------------------------------------------------------------------------------
+ERROR: Migración inserta duplicados
+------------------------------------------------------------------------------
+SÍNTOMA:
+    Cada vez que corro la migración, se duplican registros
+
+CAUSA: No usas ON CONFLICT o upsert
+
+SOLUCIÓN:
+    // PostgreSQL:
+    INSERT INTO student (name, email, phone)
+    VALUES ($1, $2, $3)
+    ON CONFLICT (email) DO UPDATE SET name = EXCLUDED.name;
+    
+    // MongoDB:
+    await Model.findOneAndUpdate(
+        { uniqueField: value },
+        { $set: {...} },
+        { upsert: true }
+    );
+
+================================================================================
+SECCIÓN 7: CHECKLIST ANTES DE ENTREGAR
+================================================================================
+
+□ Docker corriendo (docker ps muestra contenedores)
+□ Variables de entorno configuradas (.env existe)
+□ npm install ejecutado
+□ El servidor inicia sin errores (npm run dev)
+□ POST /migrate funciona y retorna contadores
+□ GET endpoints retornan datos correctos
+□ PATCH/PUT actualiza correctamente
+□ Manejo de errores (try/catch en todos los endpoints)
+□ Respuestas tienen formato consistente { message, data }
+
+================================================================================
+SECCIÓN 8: COMANDOS DE EMERGENCIA
+================================================================================
+
+# Reiniciar todo desde cero:
+docker-compose down -v
+docker-compose up -d
+npm run dev
+
+# Ver logs de error de contenedor:
+docker logs postgres-container
+docker logs mongo-container
+
+# Entrar a PostgreSQL para debug:
+docker exec -it postgres-container psql -U usuario -d basededatos
+\dt                    -- listar tablas
+\d nombre_tabla        -- describir tabla
+SELECT * FROM tabla;   -- ver datos
+
+# Entrar a MongoDB para debug:
+docker exec -it mongo-container mongosh
+show dbs
+use nombreDB
+db.colleccion.find()
+
+# Matar proceso de Node si se queda colgado:
+taskkill /F /IM node.exe   # Windows
+pkill node                  # Linux/Mac
+
+================================================================================
+                              FIN DEL DOCUMENTO
+================================================================================
