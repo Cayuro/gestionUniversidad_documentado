@@ -1,0 +1,122 @@
+# ==============================================================================
+# ARCHIVO: docker-compose.yml - CONFIGURACIÓN DE CONTENEDORES DOCKER
+# ==============================================================================
+# 
+# Docker Compose permite definir y ejecutar múltiples contenedores con un comando.
+# En este archivo configuramos PostgreSQL y MongoDB para el proyecto.
+# 
+# ¿QUÉ ES DOCKER?
+# Docker es una plataforma que permite "empaquetar" aplicaciones en contenedores.
+# Un contenedor es como una máquina virtual ligera con todo lo necesario para ejecutar
+# una aplicación (sistema operativo, librerías, configuraciones).
+# 
+# VENTAJAS:
+# - No necesitas instalar PostgreSQL ni MongoDB en tu computadora
+# - Todos los desarrolladores tienen el mismo entorno
+# - Fácil de eliminar y recrear (sin residuos en tu sistema)
+# 
+# COMANDOS ÚTILES:
+# docker-compose up -d      → Inicia los contenedores en segundo plano
+# docker-compose down       → Detiene y elimina los contenedores
+# docker-compose ps         → Ver estado de los contenedores
+# docker-compose logs       → Ver logs de los contenedores
+# docker ps                 → Ver todos los contenedores corriendo
+# ==============================================================================
+
+version: "3.9"  # Versión del formato de docker-compose
+
+# ==============================================================================
+# SERVICES - Definición de cada contenedor
+# ==============================================================================
+services:
+
+  # ============================================================================
+  # POSTGRESQL - Base de datos relacional (SQL)
+  # ============================================================================
+  postgres:
+    # Imagen oficial de PostgreSQL versión 16 (alpine = versión ligera)
+    image: postgres:16-alpine
+    
+    # Nombre que tendrá el contenedor (para identificarlo fácilmente)
+    container_name: Universidad-postgres
+    
+    # Política de reinicio:
+    # - "no": nunca reiniciar
+    # - "always": siempre reiniciar
+    # - "unless-stopped": reiniciar a menos que lo detengamos manualmente
+    restart: unless-stopped
+    
+    # Variables de entorno para configurar PostgreSQL
+    # Estas se usan al crear el contenedor por primera vez
+    environment:
+      POSTGRES_USER: Juanes           # Usuario de la base de datos
+      POSTGRES_PASSWORD: 12345        # Contraseña (¡cambiar en producción!)
+      POSTGRES_DB: EstudiantesDB      # Nombre de la base de datos inicial
+    
+    # Mapeo de puertos: "puerto_local:puerto_contenedor"
+    # PostgreSQL usa el puerto 5432 internamente
+    # Lo exponemos en 5434 para evitar conflictos si ya tienes PostgreSQL instalado
+    # Conexión: localhost:5434
+    ports:
+      - "5434:5432"
+    
+    # Volúmenes: permiten que los datos persistan aunque elimines el contenedor
+    # postgres_data es un "named volume" que Docker gestiona
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  # ============================================================================
+  # MONGODB - Base de datos documental (NoSQL)
+  # ============================================================================
+  mongo:
+    # Imagen oficial de MongoDB versión 7
+    image: mongo:7
+    
+    # Nombre del contenedor
+    container_name: EstudiantesDB
+    
+    restart: unless-stopped
+    
+    # MongoDB usa el puerto 27017 internamente
+    # Lo exponemos en 27018 para evitar conflictos
+    # Conexión: mongodb://localhost:27018/nombreDB
+    ports:
+      - "27018:27017"
+    
+    # Volumen para persistir datos de MongoDB
+    volumes:
+      - mongo_data:/data/db
+
+# ==============================================================================
+# VOLUMES - Definición de volúmenes para persistencia de datos
+# ==============================================================================
+# Los volúmenes son "carpetas" gestionadas por Docker donde se guardan los datos
+# Si eliminas el contenedor pero no el volumen, tus datos se mantienen
+volumes:
+  postgres_data:   # Volumen para datos de PostgreSQL
+  mongo_data:      # Volumen para datos de MongoDB
+
+# ==============================================================================
+# URLS DE CONEXIÓN PARA TU ARCHIVO .env
+# ==============================================================================
+# 
+# POSTGRES_URI="postgresql://Juanes:12345@localhost:5434/EstudiantesDB"
+# MONGO_URI="mongodb://localhost:27018/unigestion"
+# 
+# ==============================================================================
+# ¿CÓMO USAR ESTE ARCHIVO?
+# ==============================================================================
+# 
+# 1. Asegúrate de tener Docker Desktop instalado y corriendo
+# 
+# 2. Abre una terminal en la carpeta del proyecto
+# 
+# 3. Ejecuta: docker-compose up -d
+#    (-d = detached, corre en segundo plano)
+# 
+# 4. Verifica que estén corriendo: docker ps
+# 
+# 5. Para detener: docker-compose down
+#    (añade -v si quieres eliminar también los volúmenes/datos)
+# 
+# ==============================================================================

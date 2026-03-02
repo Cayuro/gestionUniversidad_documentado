@@ -1,0 +1,1001 @@
+student_name,student_email,student_phone,professor_name,professor_email,department,course_code,course_name,credits,semester,grade,tuition_fee,enrolmment_id
+Andres Silva,a.silva@unigestion.edu,3365032856,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2024-1,4.3,800000,ENR-1
+juan rojas,j.rojas@unigestion.edu,3562564400,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-2,1.6,1200000,ENR-2
+ Maria Gomez  ,m.gomez@unigestion.edu,3539451767,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-1,2.0,1600000,ENR-3
+Camila Lopez,c.lopez@unigestion.edu,3814456946,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2024-1,2.1,1600000,ENR-4
+Isabella Torres,i.torres@unigestion.edu,3114449735,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,4.5,800000,ENR-5
+Alejandro Castro,a.castro@unigestion.edu,3217981034,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-1,1.1,800000,ENR-6
+Valentina Perez,v.perez@unigestion.edu,3492228805,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2024-1,1.6,1200000,ENR-7
+Juan Diaz,j.diaz@unigestion.edu,3740197929,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2024-1,4.4,1200000,ENR-8
+Valeria Mendoza,v.mendoza@unigestion.edu,3932689333,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-1,1.5,1600000,ENR-9
+Sofia Silva,s.silva@unigestion.edu,3507141679,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2024-1,2.2,1600000,ENR-10
+Sofia Rojas,s.rojas@unigestion.edu,3856116185,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2024-1,3.2,1600000,ENR-11
+Isabella Perez,i.perez@unigestion.edu,3495890157,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-2,3.8,1200000,ENR-12
+Daniel Torres,d.torres@unigestion.edu,3236917924,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2024-1,3.5,1600000,ENR-13
+Camila Lopez,c.lopez@unigestion.edu,3167096869,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2024-1,3.9,1600000,ENR-14
+Diego Lopez,d.lopez@unigestion.edu,3371770362,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2024-1,2.5,1200000,ENR-15
+Juan Diaz,j.diaz@unigestion.edu,3740197929,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-1,1.3,1200000,ENR-16
+Isabella Gomez,i.gomez@unigestion.edu,3622504614,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2024-1,4.2,1600000,ENR-17
+Alejandro Morales,a.morales@unigestion.edu,3445660795,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-2,2.6,1200000,ENR-18
+Valeria Ortiz,v.ortiz@unigestion.edu,3180721081,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-2,3.6,1200000,ENR-19
+Diego Herrera,d.herrera@unigestion.edu,3343976866,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2024-1,1.8,1600000,ENR-20
+Maria Gomez,m.gomez@unigestion.edu,3341159484,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,1.8,1600000,ENR-21
+Andres Ramirez,a.ramirez@unigestion.edu,3778261213,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2024-1,2.2,1200000,ENR-22
+Juan Mendoza,j.mendoza@unigestion.edu,3540011237,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-1,4.2,1600000,ENR-23
+Isabella Gomez,i.gomez@unigestion.edu,3247433776,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,2.1,1600000,ENR-24
+Sofia Mendoza,s.mendoza@unigestion.edu,3956196161,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2024-1,1.5,800000,ENR-25
+Laura Castro,l.castro@unigestion.edu,3338064166,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2024-1,2.9,1600000,ENR-26
+Valentina Mendoza,v.mendoza@unigestion.edu,3461500877,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-1,2.1,1600000,ENR-27
+Sofia Ortiz,s.ortiz@unigestion.edu,3287077282,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-2,4.6,1200000,ENR-28
+Sofia Torres,s.torres@unigestion.edu,3644714166,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-1,4.0,800000,ENR-29
+Diego Herrera,d.herrera@unigestion.edu,3742912340,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-1,3.3,1200000,ENR-30
+Valentina Ortiz,v.ortiz@unigestion.edu,3436931421,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2024-1,4.5,1600000,ENR-31
+Alejandro Morales,a.morales@unigestion.edu,3445660795,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-1,3.6,1600000,ENR-32
+Laura Morales,l.morales@unigestion.edu,3800302406,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-2,3.7,1600000,ENR-33
+Sofia Lopez,s.lopez@unigestion.edu,3151591684,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-1,4.0,1200000,ENR-34
+Mateo Ortiz,m.ortiz@unigestion.edu,3672535229,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-1,3.4,1200000,ENR-35
+Maria Rojas,m.rojas@unigestion.edu,3742811840,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-1,2.1,1200000,ENR-36
+diego lopez,d.lopez@unigestion.edu,3371770362,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-1,3.4,1200000,ENR-37
+  Carlos Ramirez  ,c.ramirez@unigestion.edu,3986296087,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-1,5.0,1200000,ENR-38
+Laura Ramirez,l.ramirez@unigestion.edu,3493762858,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,3.8,800000,ENR-39
+Carlos Mendoza,c.mendoza@unigestion.edu,3359548613,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-2,4.2,1600000,ENR-40
+Mateo Diaz,m.diaz@unigestion.edu,3900032351,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-2,1.5,1600000,ENR-41
+Isabella Gomez,i.gomez@unigestion.edu,3289758190,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-2,2.0,1200000,ENR-42
+Daniel Lopez,d.lopez@unigestion.edu,3419339522,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-1,1.4,1600000,ENR-43
+Andres Diaz,a.diaz@unigestion.edu,3513154708,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-1,2.1,1600000,ENR-44
+Diego Torres,d.torres@unigestion.edu,3651754198,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2024-1,3.9,1600000,ENR-45
+maria ortiz,m.ortiz@unigestion.edu,3545184784,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-1,2.0,1600000,ENR-46
+Laura Castro,l.castro@unigestion.edu,3449482997,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-2,3.6,1200000,ENR-47
+Camila Rojas,c.rojas@unigestion.edu,3811920943,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-2,4.0,1200000,ENR-48
+Maria Lopez,m.lopez@unigestion.edu,3735724006,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-2,4.7,1600000,ENR-49
+Juan Mendoza,j.mendoza@unigestion.edu,3540011237,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2024-1,4.6,1600000,ENR-50
+Andres Rojas,a.rojas@unigestion.edu,3791362081,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,1.8,1600000,ENR-51
+Diego Ramirez,d.ramirez@unigestion.edu,3716837057,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-2,4.7,1600000,ENR-52
+Sofia Ortiz,s.ortiz@unigestion.edu,3287077282,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-1,3.7,1600000,ENR-53
+Carlos Gomez,c.gomez@unigestion.edu,3617581645,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-2,2.0,1600000,ENR-54
+Alejandro Rojas,a.rojas@unigestion.edu,3210221077,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2024-1,2.6,1200000,ENR-55
+Daniel Diaz,d.diaz@unigestion.edu,3751725961,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2024-1,4.1,1600000,ENR-56
+Daniel Diaz,d.diaz@unigestion.edu,3751725961,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2024-1,3.1,1600000,ENR-57
+Mateo Diaz,m.diaz@unigestion.edu,3900032351,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,1.7,1600000,ENR-58
+Laura Perez,l.perez@unigestion.edu,3599209639,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2024-1,2.8,1600000,ENR-59
+Isabella Lopez,i.lopez@unigestion.edu,3347773126,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2024-1,4.2,1600000,ENR-60
+Alejandro Ortiz,a.ortiz@unigestion.edu,3852429742,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,1.7,800000,ENR-61
+Daniel Morales,d.morales@unigestion.edu,3453724999,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-2,1.6,1600000,ENR-62
+Camila Lopez,c.lopez@unigestion.edu,3167096869,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-1,4.8,1200000,ENR-63
+valentina lopez,v.lopez@unigestion.edu,3961961662,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-2,2.9,1200000,ENR-64
+Sofia Herrera,s.herrera@unigestion.edu,3726658420,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-1,2.9,1600000,ENR-65
+Maria Perez,m.perez@unigestion.edu,3743906559,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-1,3.4,1600000,ENR-66
+Alejandro Perez,a.perez@unigestion.edu,3451880770,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-1,1.2,1600000,ENR-67
+Juan Diaz,j.diaz@unigestion.edu,3740197929,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2024-1,1.5,1600000,ENR-68
+  Sofia Mendoza  ,s.mendoza@unigestion.edu,3277216722,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-1,1.2,1200000,ENR-69
+Alejandro Silva,a.silva@unigestion.edu,3583483212,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2024-1,1.3,1600000,ENR-70
+Maria Vargas,m.vargas@unigestion.edu,3791160471,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,2.4,800000,ENR-71
+Juan Mendoza,j.mendoza@unigestion.edu,3302104534,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-1,1.9,1600000,ENR-72
+Isabella Ortiz,i.ortiz@unigestion.edu,3394506421,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-1,2.3,800000,ENR-73
+Isabella Perez,i.perez@unigestion.edu,3495890157,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2024-1,2.0,1600000,ENR-74
+Diego Ramirez,D.RAMIREZ@UNIGESTION.EDU,3716837057,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-2,4.9,1200000,ENR-75
+  Diego Mendoza  ,d.mendoza@unigestion.edu,3541172027,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-1,1.2,1200000,ENR-76
+Isabella Morales,i.morales@unigestion.edu,3936658868,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2024-1,1.0,1200000,ENR-77
+Alejandro Vargas,a.vargas@unigestion.edu,3619834308,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-1,4.7,1600000,ENR-78
+Carlos Gomez,c.gomez@unigestion.edu,3617581645,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-2,3.8,1200000,ENR-79
+Andres Vargas,a.vargas@unigestion.edu,3875657519,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2024-1,3.1,800000,ENR-80
+  Mateo Mendoza  ,m.mendoza@unigestion.edu,3139535707,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-1,2.4,800000,ENR-81
+Camila Lopez,c.lopez@unigestion.edu,3167096869,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-2,4.2,1200000,ENR-82
+Juan Lopez,j.lopez@unigestion.edu,3479491148,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2024-1,4.4,1600000,ENR-83
+Mateo Mendoza,m.mendoza@unigestion.edu,3513113067,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-1,2.5,1600000,ENR-84
+Carlos Mendoza,C.MENDOZA@UNIGESTION.EDU,3359548613,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,4.5,800000,ENR-85
+Isabella Lopez,i.lopez@unigestion.edu,3347773126,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-2,3.7,1600000,ENR-86
+Isabella Ortiz,i.ortiz@unigestion.edu,3135211834,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-1,4.0,1600000,ENR-87
+Mateo Ortiz,m.ortiz@unigestion.edu,3672535229,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2024-1,2.0,1200000,ENR-88
+Isabella Ortiz,i.ortiz@unigestion.edu,3135211834,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-1,1.9,1600000,ENR-89
+Diego Lopez,d.lopez@unigestion.edu,3371770362,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-2,1.1,1200000,ENR-90
+Sofia Morales,s.morales@unigestion.edu,3737033560,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-1,3.2,800000,ENR-91
+Juan Mendoza,j.mendoza@unigestion.edu,3985747814,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2024-1,4.7,1600000,ENR-92
+Isabella Diaz,i.diaz@unigestion.edu,3996515791,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-1,2.8,1600000,ENR-93
+  Juan Rojas  ,j.rojas@unigestion.edu,3562564400,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-1,1.7,1600000,ENR-94
+Sofia Mendoza,s.mendoza@unigestion.edu,3956196161,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-1,3.5,1200000,ENR-95
+Daniel Diaz,d.diaz@unigestion.edu,3751725961,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-1,1.2,1600000,ENR-96
+Camila Mendoza,c.mendoza@unigestion.edu,3149616106,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-2,4.4,1200000,ENR-97
+Andres Herrera,a.herrera@unigestion.edu,3397709406,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2024-1,3.3,1200000,ENR-98
+Valeria Torres,v.torres@unigestion.edu,3137829474,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-1,4.2,1600000,ENR-99
+  Daniel Lopez  ,d.lopez@unigestion.edu,3122026093,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,3.9,800000,ENR-100
+  Daniel Perez  ,d.perez@unigestion.edu,3517489012,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-2,3.6,1600000,ENR-101
+Carlos Mendoza,c.mendoza@unigestion.edu,3359548613,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-1,4.8,1200000,ENR-102
+Valeria Ortiz,v.ortiz@unigestion.edu,3932790935,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-2,1.3,1600000,ENR-103
+Laura Torres,l.torres@unigestion.edu,3608520312,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-2,4.0,1600000,ENR-104
+Isabella Lopez,i.lopez@unigestion.edu,3429097843,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-2,4.3,1600000,ENR-105
+Diego Herrera,d.herrera@unigestion.edu,3343976866,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-2,1.6,1600000,ENR-106
+valentina ortiz,v.ortiz@unigestion.edu,3436931421,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2024-1,4.7,1600000,ENR-107
+Valentina Ortiz,v.ortiz@unigestion.edu,3436931421,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-1,2.3,1200000,ENR-108
+Maria Castro,m.castro@unigestion.edu,3844147624,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-2,2.7,1600000,ENR-109
+Isabella Gomez,i.gomez@unigestion.edu,3622504614,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2024-1,2.9,1200000,ENR-110
+Daniel Morales,d.morales@unigestion.edu,3853172347,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-1,4.4,1600000,ENR-111
+Diego Lopez,d.lopez@unigestion.edu,3371770362,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-2,4.8,1600000,ENR-112
+Andres Vargas,a.vargas@unigestion.edu,3875657519,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2024-1,3.8,1600000,ENR-113
+Mateo Torres,m.torres@unigestion.edu,3975490050,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-2,1.8,1200000,ENR-114
+Andres Ramirez,a.ramirez@unigestion.edu,3778261213,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2024-1,4.8,800000,ENR-115
+Carlos Gomez,c.gomez@unigestion.edu,3617581645,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-1,4.5,1200000,ENR-116
+Carlos Gomez,c.gomez@unigestion.edu,3617581645,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-1,2.0,800000,ENR-117
+Maria Vargas,m.vargas@unigestion.edu,3791160471,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2024-1,1.2,1200000,ENR-118
+Valeria Castro,v.castro@unigestion.edu,3165003728,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-1,1.2,1600000,ENR-119
+Alejandro Perez,a.perez@unigestion.edu,3451880770,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-2,1.6,1600000,ENR-120
+Camila Perez,C.PEREZ@UNIGESTION.EDU,3427132432,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-1,4.7,800000,ENR-121
+Isabella Perez,i.perez@unigestion.edu,3495890157,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-1,1.0,1600000,ENR-122
+Valeria Ortiz,v.ortiz@unigestion.edu,3932790935,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-1,4.7,1600000,ENR-123
+Laura Morales,L.MORALES@UNIGESTION.EDU,3800302406,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2024-1,1.1,1600000,ENR-124
+sofia rojas,s.rojas@unigestion.edu,3856116185,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-1,3.9,1600000,ENR-125
+Isabella Perez,i.perez@unigestion.edu,3900271426,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-1,3.2,800000,ENR-126
+Isabella Herrera,i.herrera@unigestion.edu,3333323846,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-2,4.3,1200000,ENR-127
+Camila Ramirez,c.ramirez@unigestion.edu,3384650833,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-1,4.4,800000,ENR-128
+Valentina Ortiz,v.ortiz@unigestion.edu,3436931421,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-1,1.2,1600000,ENR-129
+Juan Mendoza,j.mendoza@unigestion.edu,3540011237,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2024-1,5.0,1200000,ENR-130
+Andres Diaz,a.diaz@unigestion.edu,3513154708,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-2,4.5,1600000,ENR-131
+Diego Ramirez,d.ramirez@unigestion.edu,3716837057,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-1,2.7,1600000,ENR-132
+Laura Morales,l.morales@unigestion.edu,3800302406,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,2.8,1600000,ENR-133
+Daniel Lopez,d.lopez@unigestion.edu,3419339522,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-1,1.1,800000,ENR-134
+Daniel Ortiz,D.ORTIZ@UNIGESTION.EDU,3454343382,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2024-1,4.7,1600000,ENR-135
+Andres Diaz,a.diaz@unigestion.edu,3339278254,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-1,2.6,800000,ENR-136
+Laura Herrera,l.herrera@unigestion.edu,3630762763,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-1,1.1,1200000,ENR-137
+Andres Rojas,a.rojas@unigestion.edu,3893046413,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2024-1,2.6,1600000,ENR-138
+  Diego Morales  ,d.morales@unigestion.edu,3117375097,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2024-1,3.4,1200000,ENR-139
+Andres Diaz,a.diaz@unigestion.edu,3513154708,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2024-1,3.1,1200000,ENR-140
+Camila Perez,C.PEREZ@UNIGESTION.EDU,3427132432,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2024-1,3.4,800000,ENR-141
+Mateo Diaz,m.diaz@unigestion.edu,3900032351,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-1,3.4,1600000,ENR-142
+Carlos Ramirez,c.ramirez@unigestion.edu,3986296087,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,3.2,1600000,ENR-143
+Isabella Gomez,i.gomez@unigestion.edu,3247433776,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-2,2.3,1600000,ENR-144
+Laura Torres,l.torres@unigestion.edu,3608520312,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-2,2.2,1600000,ENR-145
+Mateo Torres,m.torres@unigestion.edu,3975490050,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-1,2.4,1600000,ENR-146
+Sofia Mendoza,s.mendoza@unigestion.edu,3825743506,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,4.5,800000,ENR-147
+Sofia Silva,s.silva@unigestion.edu,3507141679,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,3.4,800000,ENR-148
+Valentina Perez,v.perez@unigestion.edu,3492228805,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-1,1.2,800000,ENR-149
+Isabella Torres,I.TORRES@UNIGESTION.EDU,3114449735,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2024-1,4.8,800000,ENR-150
+Sofia Rojas,s.rojas@unigestion.edu,3856116185,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,2.0,800000,ENR-151
+  Isabella Perez  ,i.perez@unigestion.edu,3831944343,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-1,3.4,1600000,ENR-152
+Carlos Rojas,c.rojas@unigestion.edu,3837255835,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2024-1,1.5,1600000,ENR-153
+  Maria Gomez  ,m.gomez@unigestion.edu,3539451767,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-1,3.1,1200000,ENR-154
+  Valeria Torres  ,v.torres@unigestion.edu,3137829474,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-1,4.5,1200000,ENR-155
+  Juan Ramirez  ,j.ramirez@unigestion.edu,3398072183,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-2,1.7,1600000,ENR-156
+Andres Gomez,a.gomez@unigestion.edu,3777676381,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-2,2.1,1200000,ENR-157
+Laura Castro,l.castro@unigestion.edu,3338064166,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-1,2.6,800000,ENR-158
+Juan Mendoza,j.mendoza@unigestion.edu,3540011237,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-1,1.6,1200000,ENR-159
+Camila Mendoza,c.mendoza@unigestion.edu,3149616106,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,3.3,800000,ENR-160
+Carlos Ramirez,c.ramirez@unigestion.edu,3656270320,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-1,4.6,1600000,ENR-161
+Mateo Castro,m.castro@unigestion.edu,3138393962,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,3.5,1600000,ENR-162
+Laura Morales,l.morales@unigestion.edu,3800302406,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-1,3.3,1600000,ENR-163
+Mateo Mendoza,M.MENDOZA@UNIGESTION.EDU,3513113067,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-2,4.5,1200000,ENR-164
+Valentina Ortiz,v.ortiz@unigestion.edu,3436931421,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-2,4.0,1600000,ENR-165
+Laura Perez,l.perez@unigestion.edu,3599209639,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-1,3.2,1600000,ENR-166
+alejandro mendoza,a.mendoza@unigestion.edu,3905599311,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2024-1,1.4,1200000,ENR-167
+Valentina Ortiz,v.ortiz@unigestion.edu,3436931421,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2024-1,4.2,800000,ENR-168
+Mateo Mendoza,m.mendoza@unigestion.edu,3139535707,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-2,2.7,1600000,ENR-169
+Sofia Castro,s.castro@unigestion.edu,3632716059,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-2,2.3,1200000,ENR-170
+  Diego Morales  ,d.morales@unigestion.edu,3117375097,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2024-1,3.4,1200000,ENR-171
+Mateo Ortiz,m.ortiz@unigestion.edu,3672535229,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-2,2.4,1600000,ENR-172
+Valentina Lopez,v.lopez@unigestion.edu,3961961662,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-2,1.4,1600000,ENR-173
+Juan Gomez,j.gomez@unigestion.edu,3338312488,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-1,3.5,1600000,ENR-174
+Isabella Perez,i.perez@unigestion.edu,3495890157,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2024-1,3.7,1600000,ENR-175
+Alejandro Diaz,a.diaz@unigestion.edu,3946562779,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-2,4.3,1600000,ENR-176
+Diego Morales,d.morales@unigestion.edu,3117375097,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-2,3.8,1200000,ENR-177
+Diego Herrera,d.herrera@unigestion.edu,3742912340,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-2,2.7,1200000,ENR-178
+Juan Herrera,j.herrera@unigestion.edu,3498195882,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2024-1,3.4,1200000,ENR-179
+Andres Lopez,a.lopez@unigestion.edu,3816119883,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2024-1,4.7,1200000,ENR-180
+Laura Gomez,l.gomez@unigestion.edu,3109055517,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-2,3.2,1200000,ENR-181
+valeria ortiz,v.ortiz@unigestion.edu,3128199492,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-2,1.9,1600000,ENR-182
+Daniel Lopez,d.lopez@unigestion.edu,3122026093,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,4.4,1600000,ENR-183
+Isabella Lopez,i.lopez@unigestion.edu,3347773126,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-2,2.6,1200000,ENR-184
+Isabella Morales,i.morales@unigestion.edu,3936658868,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-1,4.7,1600000,ENR-185
+Laura Morales,l.morales@unigestion.edu,3800302406,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2024-1,2.3,1200000,ENR-186
+Andres Rojas,a.rojas@unigestion.edu,3893046413,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2024-1,4.0,1600000,ENR-187
+Diego Ramirez,d.ramirez@unigestion.edu,3716837057,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2024-1,2.2,1600000,ENR-188
+Sofia Mendoza,S.MENDOZA@UNIGESTION.EDU,3825743506,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-2,3.9,1600000,ENR-189
+Juan Mendoza,j.mendoza@unigestion.edu,3302104534,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,1.7,800000,ENR-190
+Juan Mendoza,j.mendoza@unigestion.edu,3399329638,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2024-1,2.1,1200000,ENR-191
+Sofia Silva,s.silva@unigestion.edu,3507141679,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2024-1,2.6,1600000,ENR-192
+Daniel Rojas,d.rojas@unigestion.edu,3116103351,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-2,4.4,1200000,ENR-193
+Diego Morales,d.morales@unigestion.edu,3117375097,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2024-1,2.8,1200000,ENR-194
+Mateo Torres,m.torres@unigestion.edu,3975490050,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2024-1,4.8,1200000,ENR-195
+Mateo Diaz,m.diaz@unigestion.edu,3900032351,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-2,3.7,1200000,ENR-196
+Juan Herrera,j.herrera@unigestion.edu,3556608907,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-1,4.2,800000,ENR-197
+Valeria Mendoza,v.mendoza@unigestion.edu,3932689333,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-2,3.4,1600000,ENR-198
+Carlos Castro,c.castro@unigestion.edu,3521180805,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-1,2.5,1200000,ENR-199
+Alejandro Rojas,A.ROJAS@UNIGESTION.EDU,3210221077,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2024-1,2.4,800000,ENR-200
+Juan Perez,j.perez@unigestion.edu,3868185120,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2024-1,2.1,1600000,ENR-201
+Juan Mendoza,j.mendoza@unigestion.edu,3399329638,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-2,2.8,1600000,ENR-202
+Valeria Torres,v.torres@unigestion.edu,3137829474,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2024-1,3.8,800000,ENR-203
+Andres Rojas,a.rojas@unigestion.edu,3791362081,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2024-1,4.2,1200000,ENR-204
+Diego Rojas,d.rojas@unigestion.edu,3383127958,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-1,1.2,1200000,ENR-205
+Juan Lopez,j.lopez@unigestion.edu,3479491148,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-2,2.5,1600000,ENR-206
+Andres Diaz,a.diaz@unigestion.edu,3339278254,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2024-1,1.3,1600000,ENR-207
+Isabella Perez,i.perez@unigestion.edu,3495890157,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-1,2.0,1600000,ENR-208
+Andres Herrera,a.herrera@unigestion.edu,3397709406,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-2,1.5,1600000,ENR-209
+Camila Lopez,C.LOPEZ@UNIGESTION.EDU,3814456946,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2024-1,1.2,1600000,ENR-210
+Andres Diaz,a.diaz@unigestion.edu,3339278254,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,4.4,1600000,ENR-211
+Juan Perez,j.perez@unigestion.edu,3222822414,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,2.3,800000,ENR-212
+Juan Silva,j.silva@unigestion.edu,3452204034,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,3.0,800000,ENR-213
+Daniel Morales,d.morales@unigestion.edu,3853172347,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-2,3.8,1200000,ENR-214
+Juan Herrera,J.HERRERA@UNIGESTION.EDU,3556608907,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-1,3.4,800000,ENR-215
+Andres Perez,a.perez@unigestion.edu,3809829852,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2024-1,3.7,1200000,ENR-216
+Valeria Ortiz,v.ortiz@unigestion.edu,3932790935,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2024-1,3.9,1200000,ENR-217
+Diego Torres,d.torres@unigestion.edu,3651754198,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-1,3.5,1600000,ENR-218
+Sofia Mendoza,s.mendoza@unigestion.edu,3956196161,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,2.4,1600000,ENR-219
+Valeria Ortiz,v.ortiz@unigestion.edu,3932790935,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2024-1,4.3,1200000,ENR-220
+Carlos Ramirez,c.ramirez@unigestion.edu,3656270320,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2024-1,4.0,1600000,ENR-221
+Daniel Lopez,d.lopez@unigestion.edu,3122026093,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,2.2,800000,ENR-222
+  Andres Gomez  ,a.gomez@unigestion.edu,3777676381,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-1,3.7,1200000,ENR-223
+Juan Mendoza,j.mendoza@unigestion.edu,3399329638,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-1,2.3,1200000,ENR-224
+Sofia Morales,s.morales@unigestion.edu,3737033560,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-2,3.8,1200000,ENR-225
+  Valeria Ortiz  ,v.ortiz@unigestion.edu,3128199492,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2024-1,3.0,1600000,ENR-226
+Daniel Perez,d.perez@unigestion.edu,3517489012,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-1,4.0,1600000,ENR-227
+Valeria Castro,v.castro@unigestion.edu,3971005340,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-1,2.4,1200000,ENR-228
+Maria Castro,m.castro@unigestion.edu,3844147624,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-1,4.4,1200000,ENR-229
+Valentina Perez,v.perez@unigestion.edu,3492228805,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-1,2.6,1600000,ENR-230
+juan rojas,j.rojas@unigestion.edu,3562564400,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-2,4.2,1200000,ENR-231
+alejandro rojas,a.rojas@unigestion.edu,3210221077,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2024-1,1.3,1200000,ENR-232
+Maria Castro,m.castro@unigestion.edu,3844147624,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2024-1,4.1,800000,ENR-233
+Andres Herrera,a.herrera@unigestion.edu,3189616005,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-1,2.4,1200000,ENR-234
+Sofia Silva,s.silva@unigestion.edu,3507141679,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2024-1,4.8,1600000,ENR-235
+Juan Castro,j.castro@unigestion.edu,3783169348,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,2.7,1600000,ENR-236
+Mateo Ortiz,m.ortiz@unigestion.edu,3672535229,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2024-1,2.6,1600000,ENR-237
+Andres Diaz,a.diaz@unigestion.edu,3339278254,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-2,2.1,1600000,ENR-238
+Isabella Mendoza,i.mendoza@unigestion.edu,3923016385,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-1,3.8,800000,ENR-239
+Sofia Morales,s.morales@unigestion.edu,3737033560,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-1,4.3,1200000,ENR-240
+Daniel Lopez,d.lopez@unigestion.edu,3122026093,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2024-1,1.3,1600000,ENR-241
+Sofia Rojas,s.rojas@unigestion.edu,3856116185,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2024-1,3.8,1600000,ENR-242
+Andres Rojas,a.rojas@unigestion.edu,3791362081,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-1,1.4,1200000,ENR-243
+Camila Rojas,c.rojas@unigestion.edu,3811920943,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-1,1.5,1200000,ENR-244
+Andres Lopez,a.lopez@unigestion.edu,3816119883,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-2,5.0,1200000,ENR-245
+  Alejandro Diaz  ,a.diaz@unigestion.edu,3615053796,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-1,4.6,1600000,ENR-246
+Alejandro Perez,a.perez@unigestion.edu,3451880770,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-1,2.5,1200000,ENR-247
+Andres Vargas,a.vargas@unigestion.edu,3486703653,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-1,3.1,1600000,ENR-248
+Diego Herrera,d.herrera@unigestion.edu,3742912340,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2024-1,2.2,1600000,ENR-249
+Valeria Castro,v.castro@unigestion.edu,3971005340,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-1,3.7,1600000,ENR-250
+Andres Diaz,a.diaz@unigestion.edu,3339278254,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,1.6,800000,ENR-251
+isabella herrera,i.herrera@unigestion.edu,3333323846,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-1,4.9,800000,ENR-252
+Isabella Gomez,i.gomez@unigestion.edu,3247433776,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2024-1,2.2,1600000,ENR-253
+Alejandro Vargas,a.vargas@unigestion.edu,3619834308,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2024-1,2.7,1200000,ENR-254
+Alejandro Ortiz,a.ortiz@unigestion.edu,3852429742,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2024-1,3.5,1600000,ENR-255
+  Daniel Ortiz  ,d.ortiz@unigestion.edu,3454343382,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2024-1,4.0,1600000,ENR-256
+Maria Perez,m.perez@unigestion.edu,3743906559,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2024-1,4.4,1200000,ENR-257
+Juan Gomez,j.gomez@unigestion.edu,3338312488,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-2,1.0,1600000,ENR-258
+Juan Castro,j.castro@unigestion.edu,3783169348,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2024-1,1.3,800000,ENR-259
+alejandro diaz,a.diaz@unigestion.edu,3615053796,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-1,3.3,800000,ENR-260
+Mateo Ortiz,m.ortiz@unigestion.edu,3672535229,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-1,2.3,1600000,ENR-261
+Juan Perez,j.perez@unigestion.edu,3222822414,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2024-1,4.7,1600000,ENR-262
+  Sofia Morales  ,s.morales@unigestion.edu,3737033560,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-1,2.4,1200000,ENR-263
+Valentina Perez,V.PEREZ@UNIGESTION.EDU,3492228805,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2024-1,3.7,1200000,ENR-264
+Daniel Ramirez,d.ramirez@unigestion.edu,3956757008,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-2,3.6,1600000,ENR-265
+Andres Herrera,a.herrera@unigestion.edu,3189616005,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-1,2.9,1200000,ENR-266
+Daniel Lopez,d.lopez@unigestion.edu,3419339522,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2024-1,2.3,1200000,ENR-267
+Andres Herrera,a.herrera@unigestion.edu,3189616005,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-1,4.4,1200000,ENR-268
+sofia herrera,s.herrera@unigestion.edu,3384324635,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-2,1.0,1600000,ENR-269
+Daniel Ramirez,d.ramirez@unigestion.edu,3956757008,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-1,4.0,1600000,ENR-270
+Daniel Ramirez,d.ramirez@unigestion.edu,3956757008,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-1,4.1,1200000,ENR-271
+Daniel Morales,d.morales@unigestion.edu,3853172347,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,4.7,1600000,ENR-272
+Mateo Mendoza,m.mendoza@unigestion.edu,3139535707,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-1,1.4,1600000,ENR-273
+Sofia Herrera,s.herrera@unigestion.edu,3726658420,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2024-1,4.9,1600000,ENR-274
+Carlos Ramirez,c.ramirez@unigestion.edu,3656270320,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,4.3,1600000,ENR-275
+Diego Lopez,d.lopez@unigestion.edu,3371770362,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-2,2.8,1600000,ENR-276
+Isabella Herrera,i.herrera@unigestion.edu,3333323846,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-2,1.5,1200000,ENR-277
+Laura Ramirez,l.ramirez@unigestion.edu,3493762858,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-1,2.8,1200000,ENR-278
+Alejandro Mendoza,a.mendoza@unigestion.edu,3905599311,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-1,4.2,1200000,ENR-279
+Isabella Mendoza,i.mendoza@unigestion.edu,3923016385,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2024-1,2.7,1200000,ENR-280
+Alejandro Castro,a.castro@unigestion.edu,3217981034,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-1,1.9,1200000,ENR-281
+Alejandro Diaz,a.diaz@unigestion.edu,3946562779,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-2,1.7,1200000,ENR-282
+Carlos Ramirez,c.ramirez@unigestion.edu,3715622466,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-1,3.8,1600000,ENR-283
+Juan Silva,j.silva@unigestion.edu,3452204034,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,2.7,800000,ENR-284
+Alejandro Vargas,a.vargas@unigestion.edu,3619834308,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-1,3.4,1600000,ENR-285
+Sofia Lopez,s.lopez@unigestion.edu,3151591684,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2024-1,1.6,1200000,ENR-286
+Alejandro Silva,A.SILVA@UNIGESTION.EDU,3583483212,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-2,2.0,1600000,ENR-287
+Juan Castro,j.castro@unigestion.edu,3783169348,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2024-1,1.4,1600000,ENR-288
+Laura Ramirez,l.ramirez@unigestion.edu,3493762858,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-2,2.8,1200000,ENR-289
+Camila Lopez,c.lopez@unigestion.edu,3814456946,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2024-1,3.1,1600000,ENR-290
+Isabella Ortiz,i.ortiz@unigestion.edu,3394506421,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-1,3.0,1600000,ENR-291
+Sofia Silva,s.silva@unigestion.edu,3507141679,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-1,2.7,1200000,ENR-292
+Juan Perez,J.PEREZ@UNIGESTION.EDU,3222822414,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-1,4.9,1600000,ENR-293
+isabella gomez,i.gomez@unigestion.edu,3289758190,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,1.4,800000,ENR-294
+Isabella Lopez,i.lopez@unigestion.edu,3429097843,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2024-1,2.9,800000,ENR-295
+Isabella Gomez,i.gomez@unigestion.edu,3247433776,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-2,3.1,1200000,ENR-296
+  Andres Torres  ,a.torres@unigestion.edu,3890377509,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-1,3.6,1600000,ENR-297
+Juan Castro,j.castro@unigestion.edu,3783169348,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-2,4.6,1600000,ENR-298
+Maria Ortiz,m.ortiz@unigestion.edu,3453271386,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-1,2.3,1200000,ENR-299
+Daniel Ramirez,d.ramirez@unigestion.edu,3956757008,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,1.1,1600000,ENR-300
+Carlos Perez,c.perez@unigestion.edu,3925388463,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-2,3.6,1200000,ENR-301
+Juan Mendoza,j.mendoza@unigestion.edu,3140605488,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-1,1.5,1600000,ENR-302
+Valeria Ortiz,v.ortiz@unigestion.edu,3800282841,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-2,3.4,1600000,ENR-303
+Daniel Morales,d.morales@unigestion.edu,3853172347,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-1,2.3,1200000,ENR-304
+Maria Gomez,m.gomez@unigestion.edu,3539451767,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-2,2.2,1200000,ENR-305
+  Maria Castro  ,m.castro@unigestion.edu,3844147624,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-1,2.7,1600000,ENR-306
+Isabella Mendoza,i.mendoza@unigestion.edu,3506262962,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-2,3.5,1200000,ENR-307
+Carlos Gomez,c.gomez@unigestion.edu,3617581645,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-1,1.9,1600000,ENR-308
+Valeria Gomez,v.gomez@unigestion.edu,3896666595,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2024-1,2.9,1200000,ENR-309
+Isabella Perez,i.perez@unigestion.edu,3831944343,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-2,4.0,1200000,ENR-310
+Carlos Mendoza,c.mendoza@unigestion.edu,3359548613,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-2,3.2,1200000,ENR-311
+Maria Perez,m.perez@unigestion.edu,3743906559,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-1,1.2,800000,ENR-312
+Valeria Ortiz,v.ortiz@unigestion.edu,3180721081,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-2,2.4,1200000,ENR-313
+Isabella Ortiz,I.ORTIZ@UNIGESTION.EDU,3394506421,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,1.5,800000,ENR-314
+alejandro castro,a.castro@unigestion.edu,3217981034,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2024-1,1.6,1600000,ENR-315
+Isabella Ortiz,i.ortiz@unigestion.edu,3394506421,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2024-1,3.6,1200000,ENR-316
+Isabella Ortiz,i.ortiz@unigestion.edu,3394506421,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,3.0,1600000,ENR-317
+Andres Vargas,a.vargas@unigestion.edu,3875657519,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-1,2.8,800000,ENR-318
+andres perez,a.perez@unigestion.edu,3809829852,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-1,4.4,1200000,ENR-319
+Camila Ramirez,c.ramirez@unigestion.edu,3384650833,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,1.4,800000,ENR-320
+Laura Perez,l.perez@unigestion.edu,3599209639,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2024-1,3.6,1600000,ENR-321
+Juan Silva,j.silva@unigestion.edu,3452204034,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-1,1.2,1600000,ENR-322
+Diego Torres,d.torres@unigestion.edu,3651754198,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-1,3.0,1200000,ENR-323
+Juan Perez,J.PEREZ@UNIGESTION.EDU,3222822414,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-1,2.2,1600000,ENR-324
+  Maria Ortiz  ,m.ortiz@unigestion.edu,3545184784,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-2,2.0,1200000,ENR-325
+Mateo Castro,m.castro@unigestion.edu,3138393962,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2024-1,3.0,1200000,ENR-326
+Maria Ortiz,m.ortiz@unigestion.edu,3453271386,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2024-1,2.0,1600000,ENR-327
+Andres Herrera,a.herrera@unigestion.edu,3305743806,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,2.1,800000,ENR-328
+Mateo Ortiz,m.ortiz@unigestion.edu,3672535229,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2024-1,4.8,1200000,ENR-329
+Laura Castro,l.castro@unigestion.edu,3449482997,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2024-1,3.0,1200000,ENR-330
+Andres Vargas,a.vargas@unigestion.edu,3486703653,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-2,4.0,1200000,ENR-331
+Diego Ramirez,d.ramirez@unigestion.edu,3716837057,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2024-1,2.2,800000,ENR-332
+Isabella Morales,i.morales@unigestion.edu,3936658868,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2024-1,4.9,800000,ENR-333
+  Camila Lopez  ,c.lopez@unigestion.edu,3814456946,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2024-1,2.1,1200000,ENR-334
+Isabella Perez,i.perez@unigestion.edu,3831944343,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2024-1,2.2,800000,ENR-335
+Sofia Herrera,s.herrera@unigestion.edu,3384324635,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-2,1.6,1600000,ENR-336
+Juan Mendoza,j.mendoza@unigestion.edu,3140605488,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2024-1,3.1,1600000,ENR-337
+Sofia Rojas,s.rojas@unigestion.edu,3856116185,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2024-1,3.1,1200000,ENR-338
+Maria Gomez,m.gomez@unigestion.edu,3341159484,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2024-1,3.4,800000,ENR-339
+Andres Rojas,a.rojas@unigestion.edu,3893046413,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,4.3,800000,ENR-340
+Andres Herrera,a.herrera@unigestion.edu,3189616005,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-2,1.0,1600000,ENR-341
+Valeria Castro,v.castro@unigestion.edu,3971005340,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-1,3.8,1600000,ENR-342
+Alejandro Diaz,a.diaz@unigestion.edu,3615053796,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-1,2.9,800000,ENR-343
+Isabella Gomez,i.gomez@unigestion.edu,3247433776,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2024-1,4.4,1600000,ENR-344
+Andres Herrera,a.herrera@unigestion.edu,3397709406,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-1,2.6,1600000,ENR-345
+Maria Ortiz,m.ortiz@unigestion.edu,3453271386,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2024-1,1.8,1600000,ENR-346
+Daniel Perez,D.PEREZ@UNIGESTION.EDU,3543120051,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-2,3.8,1600000,ENR-347
+Valeria Mendoza,v.mendoza@unigestion.edu,3932689333,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2024-1,1.9,1600000,ENR-348
+Andres Gomez,a.gomez@unigestion.edu,3777676381,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-1,2.4,1200000,ENR-349
+Sofia Silva,s.silva@unigestion.edu,3507141679,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-2,3.4,1200000,ENR-350
+Andres Herrera,a.herrera@unigestion.edu,3305743806,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2024-1,3.4,1600000,ENR-351
+Juan Mendoza,j.mendoza@unigestion.edu,3985747814,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-1,4.7,1600000,ENR-352
+Juan Castro,j.castro@unigestion.edu,3783169348,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-1,2.0,1600000,ENR-353
+Andres Herrera,a.herrera@unigestion.edu,3305743806,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-2,4.9,1600000,ENR-354
+Isabella Gomez,i.gomez@unigestion.edu,3622504614,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,4.4,800000,ENR-355
+Camila Ramirez,c.ramirez@unigestion.edu,3384650833,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2024-1,4.4,1200000,ENR-356
+Isabella Gomez,I.GOMEZ@UNIGESTION.EDU,3622504614,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-2,2.0,1200000,ENR-357
+Valeria Gomez,v.gomez@unigestion.edu,3896666595,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-1,2.0,1600000,ENR-358
+Daniel Vargas,d.vargas@unigestion.edu,3479338484,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2024-1,1.7,1600000,ENR-359
+Isabella Ortiz,i.ortiz@unigestion.edu,3394506421,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,4.5,1600000,ENR-360
+Sofia Torres,s.torres@unigestion.edu,3644714166,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-2,2.8,1200000,ENR-361
+Alejandro Mendoza,a.mendoza@unigestion.edu,3905599311,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-2,2.9,1600000,ENR-362
+Diego Rojas,d.rojas@unigestion.edu,3383127958,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2024-1,2.3,1200000,ENR-363
+Daniel Diaz,d.diaz@unigestion.edu,3751725961,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-1,3.4,1600000,ENR-364
+Daniel Morales,d.morales@unigestion.edu,3853172347,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-1,2.0,1200000,ENR-365
+Diego Lopez,d.lopez@unigestion.edu,3371770362,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,1.9,1600000,ENR-366
+Carlos Ramirez,C.RAMIREZ@UNIGESTION.EDU,3715622466,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-1,3.3,1200000,ENR-367
+Sofia Ortiz,s.ortiz@unigestion.edu,3287077282,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-2,3.1,1600000,ENR-368
+Sofia Silva,S.SILVA@UNIGESTION.EDU,3507141679,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-2,4.1,1600000,ENR-369
+Valentina Lopez,v.lopez@unigestion.edu,3961961662,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2024-1,1.5,1200000,ENR-370
+Maria Gomez,m.gomez@unigestion.edu,3341159484,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-2,4.3,1600000,ENR-371
+Juan Diaz,j.diaz@unigestion.edu,3740197929,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2024-1,3.4,800000,ENR-372
+Alejandro Rojas,a.rojas@unigestion.edu,3210221077,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2024-1,4.1,1200000,ENR-373
+juan mendoza,j.mendoza@unigestion.edu,3540011237,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2024-1,1.0,1600000,ENR-374
+Sofia Silva,s.silva@unigestion.edu,3507141679,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2024-1,1.8,1200000,ENR-375
+Maria Gomez,m.gomez@unigestion.edu,3539451767,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-2,4.9,1600000,ENR-376
+Diego Herrera,d.herrera@unigestion.edu,3343976866,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2024-1,1.0,1200000,ENR-377
+Isabella Mendoza,i.mendoza@unigestion.edu,3506262962,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2024-1,3.6,1200000,ENR-378
+Juan Castro,j.castro@unigestion.edu,3783169348,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-1,4.2,1600000,ENR-379
+Carlos Ramirez,c.ramirez@unigestion.edu,3986296087,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-1,4.6,1600000,ENR-380
+Laura Castro,l.castro@unigestion.edu,3338064166,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-2,4.5,1200000,ENR-381
+  Andres Torres  ,a.torres@unigestion.edu,3890377509,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,2.8,800000,ENR-382
+Daniel Morales,d.morales@unigestion.edu,3853172347,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-2,1.7,1600000,ENR-383
+Maria Vargas,m.vargas@unigestion.edu,3791160471,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-2,4.9,1600000,ENR-384
+Maria Lopez,m.lopez@unigestion.edu,3735724006,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2024-1,3.7,1200000,ENR-385
+Alejandro Mendoza,a.mendoza@unigestion.edu,3905599311,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2024-1,4.6,1600000,ENR-386
+Laura Morales,l.morales@unigestion.edu,3800302406,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2024-1,1.4,1600000,ENR-387
+Daniel Vargas,d.vargas@unigestion.edu,3479338484,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2024-1,4.0,1200000,ENR-388
+Juan Perez,j.perez@unigestion.edu,3868185120,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2024-1,1.3,1600000,ENR-389
+Juan Castro,j.castro@unigestion.edu,3783169348,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2024-1,2.6,1600000,ENR-390
+Alejandro Vargas,a.vargas@unigestion.edu,3619834308,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2024-1,1.5,1600000,ENR-391
+Andres Ramirez,A.RAMIREZ@UNIGESTION.EDU,3778261213,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-1,4.8,1600000,ENR-392
+Daniel Lopez,d.lopez@unigestion.edu,3122026093,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-1,1.3,800000,ENR-393
+Isabella Perez,i.perez@unigestion.edu,3900271426,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-1,2.0,1600000,ENR-394
+Isabella Lopez,i.lopez@unigestion.edu,3347773126,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2024-1,3.6,1200000,ENR-395
+maria gomez,m.gomez@unigestion.edu,3341159484,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-1,1.0,1600000,ENR-396
+Andres Ramirez,a.ramirez@unigestion.edu,3778261213,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2024-1,3.4,1600000,ENR-397
+Andres Herrera,a.herrera@unigestion.edu,3305743806,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-1,2.5,1200000,ENR-398
+Camila Mendoza,c.mendoza@unigestion.edu,3149616106,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2024-1,2.8,1600000,ENR-399
+Juan Gomez,j.gomez@unigestion.edu,3338312488,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,2.6,1600000,ENR-400
+Daniel Torres,d.torres@unigestion.edu,3236917924,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-1,1.6,1600000,ENR-401
+Valentina Silva,v.silva@unigestion.edu,3292431246,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,4.5,1600000,ENR-402
+Sofia Mendoza,s.mendoza@unigestion.edu,3277216722,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-1,3.4,1600000,ENR-403
+Valeria Mendoza,v.mendoza@unigestion.edu,3932689333,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2024-1,2.8,1600000,ENR-404
+Carlos Rojas,c.rojas@unigestion.edu,3837255835,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-1,4.0,1600000,ENR-405
+Valentina Perez,v.perez@unigestion.edu,3492228805,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2024-1,4.6,800000,ENR-406
+Valentina Lopez,v.lopez@unigestion.edu,3961961662,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-1,3.7,1600000,ENR-407
+Laura Torres,l.torres@unigestion.edu,3608520312,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2024-1,1.4,1600000,ENR-408
+Alejandro Lopez,a.lopez@unigestion.edu,3760208989,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,1.3,800000,ENR-409
+Juan Mendoza,j.mendoza@unigestion.edu,3302104534,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-1,3.4,1600000,ENR-410
+Isabella Gomez,i.gomez@unigestion.edu,3247433776,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-2,3.4,1600000,ENR-411
+Sofia Mendoza,S.MENDOZA@UNIGESTION.EDU,3825743506,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-1,1.3,800000,ENR-412
+Daniel Lopez,d.lopez@unigestion.edu,3122026093,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2024-1,2.2,1600000,ENR-413
+Diego Ramirez,d.ramirez@unigestion.edu,3716837057,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2024-1,1.5,1600000,ENR-414
+  Valeria Ortiz  ,v.ortiz@unigestion.edu,3800282841,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-2,2.4,1600000,ENR-415
+Daniel Lopez,d.lopez@unigestion.edu,3419339522,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2024-1,4.0,1600000,ENR-416
+Laura Perez,l.perez@unigestion.edu,3599209639,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-1,2.3,1200000,ENR-417
+Diego Ramirez,d.ramirez@unigestion.edu,3716837057,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-1,4.0,1600000,ENR-418
+Alejandro Diaz,a.diaz@unigestion.edu,3615053796,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-1,3.9,800000,ENR-419
+Alejandro Morales,a.morales@unigestion.edu,3445660795,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2024-1,4.0,1600000,ENR-420
+Andres Diaz,a.diaz@unigestion.edu,3513154708,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-1,4.0,1600000,ENR-421
+Sofia Morales,s.morales@unigestion.edu,3737033560,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-2,4.9,1200000,ENR-422
+Maria Torres,m.torres@unigestion.edu,3824976664,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-1,3.5,1600000,ENR-423
+Valeria Ortiz,v.ortiz@unigestion.edu,3932790935,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2024-1,2.6,1600000,ENR-424
+  Mateo Mendoza  ,m.mendoza@unigestion.edu,3139535707,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-1,4.9,1600000,ENR-425
+Camila Perez,c.perez@unigestion.edu,3427132432,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-1,3.6,1200000,ENR-426
+Laura Morales,l.morales@unigestion.edu,3800302406,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-2,2.0,1600000,ENR-427
+Juan Mendoza,j.mendoza@unigestion.edu,3540011237,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-2,1.8,1600000,ENR-428
+camila perez,c.perez@unigestion.edu,3427132432,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-1,2.5,1600000,ENR-429
+Laura Perez,l.perez@unigestion.edu,3599209639,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,2.4,1600000,ENR-430
+maria gomez,m.gomez@unigestion.edu,3341159484,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-2,3.3,1600000,ENR-431
+Diego Herrera,d.herrera@unigestion.edu,3343976866,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2024-1,3.4,1600000,ENR-432
+Camila Rojas,c.rojas@unigestion.edu,3811920943,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-2,1.5,1200000,ENR-433
+Isabella Morales,i.morales@unigestion.edu,3936658868,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-1,3.5,1600000,ENR-434
+Laura Torres,l.torres@unigestion.edu,3608520312,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,1.9,800000,ENR-435
+Andres Vargas,a.vargas@unigestion.edu,3875657519,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,3.4,1600000,ENR-436
+Carlos Ramirez,c.ramirez@unigestion.edu,3715622466,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-1,2.6,1600000,ENR-437
+Diego Morales,d.morales@unigestion.edu,3117375097,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2024-1,1.5,1200000,ENR-438
+Andres Vargas,a.vargas@unigestion.edu,3486703653,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-2,1.7,1600000,ENR-439
+Valeria Gomez,v.gomez@unigestion.edu,3896666595,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-2,2.7,1200000,ENR-440
+Daniel Lopez,d.lopez@unigestion.edu,3122026093,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2024-1,2.8,1200000,ENR-441
+Sofia Castro,s.castro@unigestion.edu,3632716059,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2024-1,1.7,1600000,ENR-442
+Andres Rojas,a.rojas@unigestion.edu,3893046413,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-2,2.8,1200000,ENR-443
+Juan Castro,j.castro@unigestion.edu,3783169348,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-1,4.5,1600000,ENR-444
+Isabella Mendoza,I.MENDOZA@UNIGESTION.EDU,3923016385,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2024-1,3.0,1200000,ENR-445
+Juan Rojas,j.rojas@unigestion.edu,3562564400,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2024-1,1.9,1600000,ENR-446
+Alejandro Perez,a.perez@unigestion.edu,3451880770,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2024-1,4.8,800000,ENR-447
+Alejandro Diaz,A.DIAZ@UNIGESTION.EDU,3946562779,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-1,3.0,1200000,ENR-448
+Carlos Perez,c.perez@unigestion.edu,3925388463,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-2,4.4,1200000,ENR-449
+Daniel Ortiz,d.ortiz@unigestion.edu,3454343382,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-2,4.8,1200000,ENR-450
+Carlos Perez,c.perez@unigestion.edu,3925388463,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-2,3.7,1600000,ENR-451
+Juan Silva,j.silva@unigestion.edu,3452204034,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-2,4.8,1200000,ENR-452
+andres perez,a.perez@unigestion.edu,3809829852,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-2,3.5,1200000,ENR-453
+Camila Lopez,c.lopez@unigestion.edu,3167096869,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2024-1,1.1,1600000,ENR-454
+Camila Perez,c.perez@unigestion.edu,3427132432,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-2,4.4,1200000,ENR-455
+Laura Ramirez,l.ramirez@unigestion.edu,3493762858,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-1,3.7,1600000,ENR-456
+Sofia Castro,s.castro@unigestion.edu,3632716059,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-2,3.5,1200000,ENR-457
+Mateo Mendoza,m.mendoza@unigestion.edu,3513113067,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2024-1,4.5,1200000,ENR-458
+Andres Lopez,a.lopez@unigestion.edu,3816119883,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2024-1,1.7,1600000,ENR-459
+sofia rojas,s.rojas@unigestion.edu,3856116185,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-2,4.6,1200000,ENR-460
+Valentina Perez,v.perez@unigestion.edu,3492228805,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-2,1.9,1200000,ENR-461
+juan perez,j.perez@unigestion.edu,3868185120,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-1,3.9,1200000,ENR-462
+  Isabella Ortiz  ,i.ortiz@unigestion.edu,3135211834,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-1,4.4,1200000,ENR-463
+Carlos Gomez,c.gomez@unigestion.edu,3617581645,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,2.5,800000,ENR-464
+Laura Castro,l.castro@unigestion.edu,3338064166,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-1,4.9,1600000,ENR-465
+Sofia Mendoza,s.mendoza@unigestion.edu,3956196161,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2024-1,1.8,1600000,ENR-466
+Andres Rojas,a.rojas@unigestion.edu,3791362081,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,3.5,800000,ENR-467
+Diego Herrera,d.herrera@unigestion.edu,3343976866,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,2.7,1600000,ENR-468
+Andres Torres,a.torres@unigestion.edu,3890377509,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-2,2.4,1600000,ENR-469
+Alejandro Herrera,a.herrera@unigestion.edu,3703092772,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-2,3.2,1600000,ENR-470
+Mateo Diaz,M.DIAZ@UNIGESTION.EDU,3900032351,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2024-1,3.8,1200000,ENR-471
+Andres Herrera,a.herrera@unigestion.edu,3305743806,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2024-1,2.2,1200000,ENR-472
+Valentina Torres,v.torres@unigestion.edu,3187057596,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2024-1,2.2,800000,ENR-473
+Alejandro Vargas,a.vargas@unigestion.edu,3605377935,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2024-1,3.1,1600000,ENR-474
+Andres Rojas,a.rojas@unigestion.edu,3893046413,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2024-1,3.1,1600000,ENR-475
+Andres Diaz,a.diaz@unigestion.edu,3339278254,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2024-1,4.1,800000,ENR-476
+Sofia Mendoza,s.mendoza@unigestion.edu,3825743506,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-1,4.3,1200000,ENR-477
+Camila Ramirez,c.ramirez@unigestion.edu,3384650833,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-1,2.8,800000,ENR-478
+Isabella Diaz,i.diaz@unigestion.edu,3996515791,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-1,1.0,1600000,ENR-479
+Isabella Mendoza,i.mendoza@unigestion.edu,3923016385,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2024-1,2.8,1600000,ENR-480
+Maria Perez,m.perez@unigestion.edu,3743906559,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,2.9,800000,ENR-481
+Alejandro Castro,a.castro@unigestion.edu,3217981034,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2024-1,4.8,1200000,ENR-482
+Laura Herrera,l.herrera@unigestion.edu,3630762763,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-1,4.5,1600000,ENR-483
+Juan Rojas,j.rojas@unigestion.edu,3562564400,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-2,2.6,1600000,ENR-484
+  Alejandro Ortiz  ,a.ortiz@unigestion.edu,3852429742,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-1,2.4,1200000,ENR-485
+Juan Silva,j.silva@unigestion.edu,3452204034,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2024-1,1.4,1600000,ENR-486
+Andres Rojas,A.ROJAS@UNIGESTION.EDU,3893046413,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-1,4.3,1200000,ENR-487
+Andres Gomez,a.gomez@unigestion.edu,3777676381,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2024-1,5.0,1600000,ENR-488
+Valeria Torres,v.torres@unigestion.edu,3137829474,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2024-1,2.1,1200000,ENR-489
+Isabella Gomez,i.gomez@unigestion.edu,3247433776,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-1,4.3,1200000,ENR-490
+sofia herrera,s.herrera@unigestion.edu,3384324635,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-2,3.3,1200000,ENR-491
+Valeria Ramirez,v.ramirez@unigestion.edu,3217728345,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-2,2.7,1600000,ENR-492
+Maria Ortiz,m.ortiz@unigestion.edu,3545184784,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-2,1.7,1600000,ENR-493
+Carlos Ramirez,c.ramirez@unigestion.edu,3715622466,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-1,2.6,1600000,ENR-494
+Isabella Morales,i.morales@unigestion.edu,3936658868,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-1,3.4,1600000,ENR-495
+Sofia Lopez,s.lopez@unigestion.edu,3151591684,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2024-1,2.3,1200000,ENR-496
+Daniel Ortiz,d.ortiz@unigestion.edu,3454343382,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-2,3.6,1200000,ENR-497
+Isabella Morales,i.morales@unigestion.edu,3936658868,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2024-1,2.7,1600000,ENR-498
+Carlos Gomez,c.gomez@unigestion.edu,3617581645,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-1,4.9,800000,ENR-499
+Valeria Castro,V.CASTRO@UNIGESTION.EDU,3971005340,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-1,3.3,1600000,ENR-500
+Maria Torres,M.TORRES@UNIGESTION.EDU,3824976664,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-1,3.3,1200000,ENR-501
+Andres Gomez,a.gomez@unigestion.edu,3777676381,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-2,4.2,1600000,ENR-502
+  Carlos Castro  ,c.castro@unigestion.edu,3521180805,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2024-1,3.5,1200000,ENR-503
+Sofia Torres,s.torres@unigestion.edu,3644714166,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,1.7,800000,ENR-504
+Isabella Gomez,i.gomez@unigestion.edu,3622504614,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2024-1,1.5,1200000,ENR-505
+Maria Perez,m.perez@unigestion.edu,3743906559,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-1,5.0,1200000,ENR-506
+  Valeria Ortiz  ,v.ortiz@unigestion.edu,3128199492,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-1,2.9,1200000,ENR-507
+Juan Herrera,j.herrera@unigestion.edu,3169275327,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2024-1,1.8,1600000,ENR-508
+Isabella Morales,i.morales@unigestion.edu,3936658868,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2024-1,1.9,1600000,ENR-509
+Valeria Torres,v.torres@unigestion.edu,3137829474,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2024-1,1.5,1200000,ENR-510
+Juan Silva,j.silva@unigestion.edu,3452204034,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-1,2.4,1200000,ENR-511
+Juan Castro,j.castro@unigestion.edu,3532676825,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-1,4.2,1200000,ENR-512
+Juan Castro,j.castro@unigestion.edu,3783169348,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2024-1,3.0,1600000,ENR-513
+Andres Herrera,a.herrera@unigestion.edu,3397709406,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-2,3.5,1200000,ENR-514
+Sofia Ortiz,s.ortiz@unigestion.edu,3287077282,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,4.2,800000,ENR-515
+Mateo Mendoza,m.mendoza@unigestion.edu,3139535707,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-1,3.4,1200000,ENR-516
+Andres Vargas,a.vargas@unigestion.edu,3486703653,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-2,4.9,1200000,ENR-517
+maria perez,m.perez@unigestion.edu,3743906559,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-2,1.8,1200000,ENR-518
+  Valeria Ortiz  ,v.ortiz@unigestion.edu,3128199492,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2024-1,1.3,1600000,ENR-519
+Juan Castro,j.castro@unigestion.edu,3532676825,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-1,4.1,800000,ENR-520
+Daniel Ortiz,d.ortiz@unigestion.edu,3454343382,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-2,2.2,1600000,ENR-521
+Isabella Ortiz,i.ortiz@unigestion.edu,3135211834,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-1,4.7,1600000,ENR-522
+Alejandro Rojas,a.rojas@unigestion.edu,3210221077,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2024-1,3.3,1600000,ENR-523
+Juan Herrera,j.herrera@unigestion.edu,3498195882,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2024-1,4.4,1600000,ENR-524
+  Juan Silva  ,j.silva@unigestion.edu,3452204034,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-2,3.3,1200000,ENR-525
+Isabella Ortiz,i.ortiz@unigestion.edu,3394506421,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-1,1.2,1200000,ENR-526
+valeria torres,v.torres@unigestion.edu,3137829474,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-2,1.3,1600000,ENR-527
+Daniel Lopez,d.lopez@unigestion.edu,3419339522,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-2,3.4,1600000,ENR-528
+Alejandro Vargas,a.vargas@unigestion.edu,3619834308,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2024-1,3.0,1600000,ENR-529
+Andres Rojas,a.rojas@unigestion.edu,3791362081,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-2,1.0,1600000,ENR-530
+Alejandro Herrera,a.herrera@unigestion.edu,3703092772,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2024-1,4.8,800000,ENR-531
+Isabella Perez,i.perez@unigestion.edu,3900271426,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2024-1,2.4,1600000,ENR-532
+Juan Rojas,j.rojas@unigestion.edu,3562564400,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,3.3,800000,ENR-533
+Laura Ramirez,l.ramirez@unigestion.edu,3493762858,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-2,2.6,1600000,ENR-534
+Alejandro Mendoza,A.MENDOZA@UNIGESTION.EDU,3905599311,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-1,1.6,1600000,ENR-535
+Laura Gomez,l.gomez@unigestion.edu,3109055517,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-1,1.8,1600000,ENR-536
+Juan Castro,j.castro@unigestion.edu,3532676825,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2024-1,2.2,1600000,ENR-537
+Andres Rojas,a.rojas@unigestion.edu,3893046413,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-2,3.9,1600000,ENR-538
+Alejandro Herrera,a.herrera@unigestion.edu,3703092772,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-2,3.8,1600000,ENR-539
+Sofia Ortiz,s.ortiz@unigestion.edu,3287077282,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-1,4.7,1200000,ENR-540
+Juan Morales,j.morales@unigestion.edu,3653297704,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-2,2.2,1200000,ENR-541
+Juan Herrera,j.herrera@unigestion.edu,3556608907,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-1,3.7,1200000,ENR-542
+Juan Diaz,j.diaz@unigestion.edu,3740197929,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2024-1,4.2,800000,ENR-543
+Camila Ramirez,c.ramirez@unigestion.edu,3384650833,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2024-1,1.8,1600000,ENR-544
+Camila Mendoza,c.mendoza@unigestion.edu,3149616106,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-1,2.8,1600000,ENR-545
+Andres Perez,a.perez@unigestion.edu,3809829852,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2024-1,1.9,1600000,ENR-546
+Juan Gomez,j.gomez@unigestion.edu,3338312488,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-1,2.2,1600000,ENR-547
+Laura Ramirez,L.RAMIREZ@UNIGESTION.EDU,3493762858,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-2,2.1,1200000,ENR-548
+Daniel Torres,d.torres@unigestion.edu,3236917924,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-1,4.0,1200000,ENR-549
+  Diego Torres  ,d.torres@unigestion.edu,3651754198,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-1,4.5,1600000,ENR-550
+Laura Morales,l.morales@unigestion.edu,3800302406,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-1,4.6,1200000,ENR-551
+Valeria Mendoza,v.mendoza@unigestion.edu,3932689333,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,4.0,800000,ENR-552
+Maria Gomez,m.gomez@unigestion.edu,3539451767,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,4.7,800000,ENR-553
+Alejandro Morales,a.morales@unigestion.edu,3445660795,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-2,3.2,1600000,ENR-554
+Valentina Torres,v.torres@unigestion.edu,3187057596,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2024-1,2.1,1600000,ENR-555
+Alejandro Silva,a.silva@unigestion.edu,3583483212,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-1,3.0,1600000,ENR-556
+Valentina Lopez,v.lopez@unigestion.edu,3961961662,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2024-1,1.2,1600000,ENR-557
+Camila Ramirez,c.ramirez@unigestion.edu,3384650833,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-2,4.1,1200000,ENR-558
+Maria Gomez,m.gomez@unigestion.edu,3539451767,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2024-1,3.1,1200000,ENR-559
+Juan Gomez,j.gomez@unigestion.edu,3368335779,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,4.5,800000,ENR-560
+Juan Gomez,j.gomez@unigestion.edu,3338312488,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-2,2.2,1600000,ENR-561
+Isabella Perez,i.perez@unigestion.edu,3900271426,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,3.5,800000,ENR-562
+Maria Torres,m.torres@unigestion.edu,3824976664,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,2.8,1600000,ENR-563
+Juan Mendoza,j.mendoza@unigestion.edu,3540011237,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-1,4.6,1200000,ENR-564
+Valentina Lopez,v.lopez@unigestion.edu,3961961662,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-1,3.2,1200000,ENR-565
+Camila Ramirez,c.ramirez@unigestion.edu,3384650833,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-2,4.8,1200000,ENR-566
+Camila Mendoza,c.mendoza@unigestion.edu,3149616106,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,3.6,800000,ENR-567
+Daniel Lopez,d.lopez@unigestion.edu,3419339522,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,1.1,1600000,ENR-568
+Juan Ramirez,j.ramirez@unigestion.edu,3398072183,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,1.5,800000,ENR-569
+Isabella Mendoza,i.mendoza@unigestion.edu,3923016385,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2024-1,1.7,1600000,ENR-570
+Daniel Ortiz,d.ortiz@unigestion.edu,3454343382,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2024-1,3.4,1600000,ENR-571
+Daniel Perez,d.perez@unigestion.edu,3543120051,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-1,1.3,1200000,ENR-572
+Sofia Lopez,s.lopez@unigestion.edu,3151591684,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-1,1.8,1200000,ENR-573
+Diego Lopez,d.lopez@unigestion.edu,3371770362,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2024-1,3.6,1600000,ENR-574
+Juan Rojas,j.rojas@unigestion.edu,3562564400,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-1,2.8,1600000,ENR-575
+Valentina Mendoza,v.mendoza@unigestion.edu,3461500877,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-2,1.0,1200000,ENR-576
+isabella torres,i.torres@unigestion.edu,3114449735,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-2,1.8,1200000,ENR-577
+Mateo Mendoza,m.mendoza@unigestion.edu,3139535707,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-1,3.6,1600000,ENR-578
+Camila Lopez,c.lopez@unigestion.edu,3167096869,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-1,1.2,1200000,ENR-579
+Sofia Lopez,s.lopez@unigestion.edu,3151591684,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2024-1,2.2,800000,ENR-580
+Andres Perez,a.perez@unigestion.edu,3809829852,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-2,2.9,1600000,ENR-581
+Isabella Gomez,i.gomez@unigestion.edu,3289758190,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-2,4.8,1600000,ENR-582
+Carlos Ramirez,c.ramirez@unigestion.edu,3656270320,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2024-1,2.8,1600000,ENR-583
+Valeria Ortiz,v.ortiz@unigestion.edu,3932790935,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-1,2.6,1600000,ENR-584
+Daniel Ramirez,d.ramirez@unigestion.edu,3956757008,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2024-1,3.6,800000,ENR-585
+Isabella Ortiz,i.ortiz@unigestion.edu,3394506421,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2024-1,1.4,1600000,ENR-586
+juan castro,j.castro@unigestion.edu,3783169348,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2024-1,1.0,1600000,ENR-587
+Daniel Perez,d.perez@unigestion.edu,3517489012,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-1,4.1,1200000,ENR-588
+Isabella Perez,i.perez@unigestion.edu,3900271426,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-1,1.7,800000,ENR-589
+Maria Rojas,M.ROJAS@UNIGESTION.EDU,3742811840,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2024-1,2.7,1600000,ENR-590
+  Isabella Diaz  ,i.diaz@unigestion.edu,3996515791,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-2,2.9,1600000,ENR-591
+Juan Perez,j.perez@unigestion.edu,3868185120,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-1,4.5,1600000,ENR-592
+Sofia Castro,s.castro@unigestion.edu,3632716059,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-1,4.8,1600000,ENR-593
+Valeria Torres,v.torres@unigestion.edu,3137829474,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2024-1,2.3,1600000,ENR-594
+Alejandro Vargas,a.vargas@unigestion.edu,3605377935,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-2,4.7,1200000,ENR-595
+Mateo Mendoza,m.mendoza@unigestion.edu,3513113067,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2024-1,2.7,1600000,ENR-596
+Carlos Ramirez,c.ramirez@unigestion.edu,3656270320,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2024-1,1.2,1200000,ENR-597
+Diego Morales,d.morales@unigestion.edu,3117375097,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2024-1,2.0,1600000,ENR-598
+Juan Perez,j.perez@unigestion.edu,3868185120,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-2,4.4,1200000,ENR-599
+Laura Castro,l.castro@unigestion.edu,3338064166,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-2,4.6,1200000,ENR-600
+  Isabella Gomez  ,i.gomez@unigestion.edu,3247433776,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-2,2.4,1600000,ENR-601
+Valeria Castro,v.castro@unigestion.edu,3971005340,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-1,3.6,1200000,ENR-602
+Isabella Lopez,i.lopez@unigestion.edu,3347773126,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2024-1,3.0,800000,ENR-603
+Valentina Torres,v.torres@unigestion.edu,3187057596,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-1,2.6,1200000,ENR-604
+camila mendoza,c.mendoza@unigestion.edu,3149616106,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-2,2.6,1600000,ENR-605
+Sofia Herrera,s.herrera@unigestion.edu,3726658420,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-1,1.8,1600000,ENR-606
+Camila Perez,c.perez@unigestion.edu,3427132432,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,3.9,1600000,ENR-607
+Valeria Ortiz,V.ORTIZ@UNIGESTION.EDU,3180721081,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,1.6,800000,ENR-608
+Maria Ortiz,M.ORTIZ@UNIGESTION.EDU,3545184784,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-2,1.4,1600000,ENR-609
+Daniel Perez,d.perez@unigestion.edu,3517489012,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-2,2.2,1600000,ENR-610
+Alejandro Diaz,a.diaz@unigestion.edu,3946562779,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,1.2,800000,ENR-611
+Valeria Ortiz,v.ortiz@unigestion.edu,3800282841,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-2,3.8,1200000,ENR-612
+Sofia Morales,s.morales@unigestion.edu,3737033560,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2024-1,3.7,1600000,ENR-613
+Mateo Ortiz,m.ortiz@unigestion.edu,3672535229,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-1,4.8,1600000,ENR-614
+Mateo Diaz,m.diaz@unigestion.edu,3900032351,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-2,2.4,1600000,ENR-615
+Maria Perez,m.perez@unigestion.edu,3743906559,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2024-1,3.3,1600000,ENR-616
+Juan Ramirez,j.ramirez@unigestion.edu,3398072183,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-2,3.2,1200000,ENR-617
+  Mateo Torres  ,m.torres@unigestion.edu,3975490050,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-2,3.7,1600000,ENR-618
+Juan Herrera,j.herrera@unigestion.edu,3169275327,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2024-1,1.6,1600000,ENR-619
+Sofia Mendoza,s.mendoza@unigestion.edu,3825743506,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,4.8,1600000,ENR-620
+Mateo Ortiz,m.ortiz@unigestion.edu,3672535229,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,4.3,800000,ENR-621
+  Daniel Morales  ,d.morales@unigestion.edu,3853172347,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2024-1,3.8,1200000,ENR-622
+Daniel Morales,d.morales@unigestion.edu,3453724999,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2024-1,1.4,1600000,ENR-623
+Mateo Diaz,m.diaz@unigestion.edu,3900032351,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-2,1.9,1600000,ENR-624
+Camila Ramirez,c.ramirez@unigestion.edu,3384650833,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2024-1,3.0,800000,ENR-625
+Juan Gomez,j.gomez@unigestion.edu,3368335779,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2024-1,2.8,1600000,ENR-626
+Diego Morales,D.MORALES@UNIGESTION.EDU,3117375097,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-2,3.8,1200000,ENR-627
+Juan Mendoza,j.mendoza@unigestion.edu,3140605488,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-1,1.3,1200000,ENR-628
+Camila Perez,c.perez@unigestion.edu,3427132432,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2024-1,4.4,1600000,ENR-629
+Valentina Lopez,v.lopez@unigestion.edu,3961961662,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-1,1.8,1600000,ENR-630
+Camila Mendoza,c.mendoza@unigestion.edu,3149616106,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2024-1,1.9,1600000,ENR-631
+Daniel Diaz,d.diaz@unigestion.edu,3751725961,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2024-1,2.3,1200000,ENR-632
+Isabella Herrera,i.herrera@unigestion.edu,3333323846,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2024-1,2.2,1600000,ENR-633
+Isabella Ortiz,i.ortiz@unigestion.edu,3135211834,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-2,1.6,1200000,ENR-634
+Valentina Lopez,v.lopez@unigestion.edu,3961961662,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-2,4.9,1200000,ENR-635
+Carlos Castro,c.castro@unigestion.edu,3521180805,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-1,2.9,1600000,ENR-636
+Valeria Torres,v.torres@unigestion.edu,3137829474,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2024-1,2.3,1200000,ENR-637
+Andres Perez,a.perez@unigestion.edu,3809829852,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-1,3.4,1600000,ENR-638
+Juan Perez,j.perez@unigestion.edu,3222822414,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2024-1,3.3,1200000,ENR-639
+Diego Morales,d.morales@unigestion.edu,3117375097,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-2,3.7,1200000,ENR-640
+Valeria Gomez,v.gomez@unigestion.edu,3896666595,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-1,4.5,1600000,ENR-641
+Diego Lopez,d.lopez@unigestion.edu,3371770362,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-2,2.9,1200000,ENR-642
+Valeria Ortiz,v.ortiz@unigestion.edu,3800282841,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-1,3.9,1200000,ENR-643
+Sofia Ortiz,s.ortiz@unigestion.edu,3287077282,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-2,2.5,1600000,ENR-644
+Camila Rojas,c.rojas@unigestion.edu,3811920943,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-1,2.2,1600000,ENR-645
+Isabella Gomez,i.gomez@unigestion.edu,3289758190,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-2,4.9,1600000,ENR-646
+Camila Rojas,c.rojas@unigestion.edu,3811920943,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-1,5.0,1200000,ENR-647
+Juan Mendoza,j.mendoza@unigestion.edu,3140605488,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-2,1.8,1600000,ENR-648
+Alejandro Mendoza,A.MENDOZA@UNIGESTION.EDU,3905599311,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-1,5.0,1600000,ENR-649
+Andres Ramirez,a.ramirez@unigestion.edu,3778261213,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-2,4.4,1600000,ENR-650
+Camila Rojas,c.rojas@unigestion.edu,3811920943,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-1,4.0,1200000,ENR-651
+juan gomez,j.gomez@unigestion.edu,3338312488,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-2,4.5,1200000,ENR-652
+  Juan Silva  ,j.silva@unigestion.edu,3452204034,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2024-1,2.1,1600000,ENR-653
+Andres Vargas,a.vargas@unigestion.edu,3875657519,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-2,3.9,1600000,ENR-654
+  Daniel Vargas  ,d.vargas@unigestion.edu,3479338484,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-1,2.3,1600000,ENR-655
+Diego Morales,d.morales@unigestion.edu,3117375097,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-1,2.6,1200000,ENR-656
+Isabella Diaz,i.diaz@unigestion.edu,3996515791,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,1.2,1600000,ENR-657
+Andres Rojas,a.rojas@unigestion.edu,3791362081,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2024-1,4.8,1200000,ENR-658
+Camila Mendoza,c.mendoza@unigestion.edu,3149616106,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-1,1.4,800000,ENR-659
+Carlos Ramirez,C.RAMIREZ@UNIGESTION.EDU,3656270320,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-2,3.1,1200000,ENR-660
+Andres Diaz,a.diaz@unigestion.edu,3513154708,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2024-1,3.6,1600000,ENR-661
+Daniel Lopez,d.lopez@unigestion.edu,3122026093,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-1,2.7,1200000,ENR-662
+Maria Perez,m.perez@unigestion.edu,3743906559,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2024-1,2.3,1600000,ENR-663
+Sofia Lopez,S.LOPEZ@UNIGESTION.EDU,3151591684,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2024-1,2.0,1600000,ENR-664
+Carlos Perez,c.perez@unigestion.edu,3925388463,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-1,1.8,1600000,ENR-665
+Alejandro Ortiz,a.ortiz@unigestion.edu,3852429742,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-1,4.0,1600000,ENR-666
+Juan Herrera,j.herrera@unigestion.edu,3556608907,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-1,1.7,1600000,ENR-667
+Valentina Torres,v.torres@unigestion.edu,3187057596,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-1,1.7,1600000,ENR-668
+Sofia Rojas,s.rojas@unigestion.edu,3856116185,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2024-1,3.3,1200000,ENR-669
+Valeria Ortiz,v.ortiz@unigestion.edu,3800282841,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-2,3.3,1200000,ENR-670
+alejandro diaz,a.diaz@unigestion.edu,3946562779,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-1,3.3,1600000,ENR-671
+Valeria Ortiz,v.ortiz@unigestion.edu,3932790935,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2024-1,2.5,800000,ENR-672
+Juan Lopez,j.lopez@unigestion.edu,3479491148,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-2,5.0,1200000,ENR-673
+Juan Ramirez,j.ramirez@unigestion.edu,3398072183,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-2,3.4,1200000,ENR-674
+  Daniel Morales  ,d.morales@unigestion.edu,3453724999,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-2,4.6,1200000,ENR-675
+Sofia Mendoza,s.mendoza@unigestion.edu,3825743506,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-2,2.9,1600000,ENR-676
+Isabella Ortiz,i.ortiz@unigestion.edu,3135211834,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,4.3,1600000,ENR-677
+Sofia Ortiz,s.ortiz@unigestion.edu,3287077282,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-2,2.2,1600000,ENR-678
+Isabella Morales,i.morales@unigestion.edu,3936658868,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2024-1,4.1,1200000,ENR-679
+Juan Rojas,j.rojas@unigestion.edu,3562564400,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2024-1,1.6,1600000,ENR-680
+Juan Castro,j.castro@unigestion.edu,3532676825,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-2,4.2,1600000,ENR-681
+Daniel Perez,D.PEREZ@UNIGESTION.EDU,3543120051,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,2.6,1600000,ENR-682
+Carlos Ramirez,c.ramirez@unigestion.edu,3715622466,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-2,1.4,1200000,ENR-683
+Andres Herrera,a.herrera@unigestion.edu,3189616005,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-2,2.0,1600000,ENR-684
+Juan Castro,j.castro@unigestion.edu,3532676825,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-2,1.5,1200000,ENR-685
+Juan Mendoza,j.mendoza@unigestion.edu,3140605488,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2024-1,3.1,1200000,ENR-686
+Daniel Diaz,d.diaz@unigestion.edu,3751725961,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2024-1,4.6,1200000,ENR-687
+  Camila Perez  ,c.perez@unigestion.edu,3427132432,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-2,3.8,1600000,ENR-688
+Andres Herrera,A.HERRERA@UNIGESTION.EDU,3305743806,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-2,2.9,1600000,ENR-689
+Andres Vargas,a.vargas@unigestion.edu,3875657519,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,2.8,800000,ENR-690
+Mateo Mendoza,m.mendoza@unigestion.edu,3139535707,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,2.4,800000,ENR-691
+Isabella Mendoza,i.mendoza@unigestion.edu,3923016385,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-1,3.1,800000,ENR-692
+Andres Ramirez,a.ramirez@unigestion.edu,3778261213,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,1.4,800000,ENR-693
+Camila Mendoza,c.mendoza@unigestion.edu,3149616106,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-1,4.3,1200000,ENR-694
+Andres Silva,a.silva@unigestion.edu,3365032856,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-1,4.5,1600000,ENR-695
+Valentina Lopez,v.lopez@unigestion.edu,3961961662,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-1,3.6,1200000,ENR-696
+Carlos Castro,c.castro@unigestion.edu,3521180805,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-2,3.3,1200000,ENR-697
+Diego Rojas,d.rojas@unigestion.edu,3383127958,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-2,1.4,1600000,ENR-698
+laura gomez,l.gomez@unigestion.edu,3109055517,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,3.8,800000,ENR-699
+maria castro,m.castro@unigestion.edu,3844147624,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2024-1,2.6,1600000,ENR-700
+Carlos Ramirez,c.ramirez@unigestion.edu,3986296087,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-1,1.5,1200000,ENR-701
+  Daniel Morales  ,d.morales@unigestion.edu,3853172347,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,4.4,1600000,ENR-702
+Sofia Silva,s.silva@unigestion.edu,3507141679,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2024-1,2.6,1600000,ENR-703
+Juan Mendoza,j.mendoza@unigestion.edu,3140605488,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,4.2,1600000,ENR-704
+Carlos Mendoza,c.mendoza@unigestion.edu,3359548613,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-1,3.0,1200000,ENR-705
+Sofia Silva,s.silva@unigestion.edu,3507141679,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-2,3.4,1200000,ENR-706
+Sofia Herrera,s.herrera@unigestion.edu,3726658420,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2024-1,2.1,800000,ENR-707
+Laura Morales,l.morales@unigestion.edu,3800302406,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-1,2.7,1600000,ENR-708
+Sofia Mendoza,S.MENDOZA@UNIGESTION.EDU,3277216722,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-2,4.7,1200000,ENR-709
+  Juan Gomez  ,j.gomez@unigestion.edu,3338312488,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,1.7,800000,ENR-710
+Juan Rojas,j.rojas@unigestion.edu,3562564400,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-2,2.0,1600000,ENR-711
+Andres Vargas,a.vargas@unigestion.edu,3486703653,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,2.9,1600000,ENR-712
+Juan Morales,j.morales@unigestion.edu,3653297704,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-1,3.5,1600000,ENR-713
+Isabella Mendoza,i.mendoza@unigestion.edu,3923016385,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-1,3.6,1600000,ENR-714
+Alejandro Castro,a.castro@unigestion.edu,3217981034,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2024-1,1.7,1200000,ENR-715
+Isabella Ortiz,i.ortiz@unigestion.edu,3135211834,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2024-1,2.3,1200000,ENR-716
+Juan Ramirez,j.ramirez@unigestion.edu,3398072183,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-1,3.3,1600000,ENR-717
+Sofia Mendoza,s.mendoza@unigestion.edu,3825743506,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,5.0,800000,ENR-718
+Juan Gomez,j.gomez@unigestion.edu,3338312488,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,4.9,1600000,ENR-719
+Laura Herrera,L.HERRERA@UNIGESTION.EDU,3630762763,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2024-1,2.0,800000,ENR-720
+Daniel Diaz,d.diaz@unigestion.edu,3751725961,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-1,4.7,800000,ENR-721
+Carlos Perez,c.perez@unigestion.edu,3925388463,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2024-1,4.7,1200000,ENR-722
+alejandro diaz,a.diaz@unigestion.edu,3946562779,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2024-1,4.1,1200000,ENR-723
+Laura Castro,l.castro@unigestion.edu,3338064166,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,1.6,1600000,ENR-724
+  Diego Lopez  ,d.lopez@unigestion.edu,3371770362,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2024-1,1.8,1200000,ENR-725
+Isabella Perez,i.perez@unigestion.edu,3495890157,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-2,1.9,1600000,ENR-726
+Sofia Herrera,s.herrera@unigestion.edu,3726658420,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-1,1.1,1600000,ENR-727
+Carlos Perez,c.perez@unigestion.edu,3925388463,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2024-1,4.9,1600000,ENR-728
+Sofia Herrera,s.herrera@unigestion.edu,3726658420,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-1,3.1,1600000,ENR-729
+Laura Torres,l.torres@unigestion.edu,3608520312,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2024-1,4.7,1600000,ENR-730
+Maria Gomez,m.gomez@unigestion.edu,3341159484,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2024-1,2.4,1600000,ENR-731
+camila mendoza,c.mendoza@unigestion.edu,3149616106,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2024-1,5.0,1200000,ENR-732
+Sofia Rojas,s.rojas@unigestion.edu,3856116185,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2024-1,4.0,800000,ENR-733
+Alejandro Silva,a.silva@unigestion.edu,3583483212,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2024-1,3.0,1600000,ENR-734
+Laura Perez,l.perez@unigestion.edu,3599209639,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2024-1,3.8,800000,ENR-735
+Mateo Ortiz,m.ortiz@unigestion.edu,3672535229,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2024-1,4.5,800000,ENR-736
+Maria Castro,m.castro@unigestion.edu,3844147624,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-2,1.0,1200000,ENR-737
+Isabella Diaz,i.diaz@unigestion.edu,3996515791,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2024-1,3.8,1600000,ENR-738
+Juan Mendoza,J.MENDOZA@UNIGESTION.EDU,3399329638,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,4.1,800000,ENR-739
+Andres Vargas,a.vargas@unigestion.edu,3486703653,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2024-1,1.8,1200000,ENR-740
+Daniel Perez,d.perez@unigestion.edu,3543120051,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,3.8,1600000,ENR-741
+  Valeria Ortiz  ,v.ortiz@unigestion.edu,3932790935,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-2,3.4,1200000,ENR-742
+Valentina Torres,v.torres@unigestion.edu,3187057596,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-1,3.7,1600000,ENR-743
+sofia morales,s.morales@unigestion.edu,3737033560,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2024-1,2.7,800000,ENR-744
+Juan Gomez,j.gomez@unigestion.edu,3368335779,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-1,4.2,1600000,ENR-745
+  Daniel Morales  ,d.morales@unigestion.edu,3453724999,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-2,2.7,1200000,ENR-746
+Isabella Gomez,i.gomez@unigestion.edu,3289758190,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2024-1,1.7,1600000,ENR-747
+Maria Lopez,m.lopez@unigestion.edu,3735724006,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-2,3.5,1600000,ENR-748
+Alejandro Castro,a.castro@unigestion.edu,3217981034,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2024-1,3.6,1600000,ENR-749
+Isabella Perez,i.perez@unigestion.edu,3900271426,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2024-1,4.6,1600000,ENR-750
+Carlos Ramirez,c.ramirez@unigestion.edu,3656270320,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-2,1.0,1200000,ENR-751
+Isabella Gomez,i.gomez@unigestion.edu,3622504614,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-1,3.8,1200000,ENR-752
+Camila Ramirez,c.ramirez@unigestion.edu,3384650833,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-2,3.6,1200000,ENR-753
+Camila Mendoza,c.mendoza@unigestion.edu,3149616106,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,3.1,1600000,ENR-754
+Carlos Castro,c.castro@unigestion.edu,3521180805,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2024-1,2.4,800000,ENR-755
+Maria Lopez,m.lopez@unigestion.edu,3735724006,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-1,1.0,1600000,ENR-756
+Juan Gomez,j.gomez@unigestion.edu,3338312488,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-1,3.7,1600000,ENR-757
+Sofia Morales,s.morales@unigestion.edu,3737033560,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2024-1,4.3,800000,ENR-758
+Isabella Gomez,i.gomez@unigestion.edu,3622504614,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-1,2.0,1600000,ENR-759
+Isabella Lopez,i.lopez@unigestion.edu,3347773126,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2024-1,1.4,1200000,ENR-760
+alejandro perez,a.perez@unigestion.edu,3451880770,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-2,4.7,1600000,ENR-761
+Sofia Torres,s.torres@unigestion.edu,3644714166,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-2,2.7,1200000,ENR-762
+Valentina Perez,v.perez@unigestion.edu,3492228805,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-1,4.1,800000,ENR-763
+Isabella Lopez,i.lopez@unigestion.edu,3429097843,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2024-1,4.7,1200000,ENR-764
+Sofia Herrera,s.herrera@unigestion.edu,3384324635,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-2,3.5,1600000,ENR-765
+Isabella Gomez,i.gomez@unigestion.edu,3247433776,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2024-1,3.1,1200000,ENR-766
+Andres Lopez,a.lopez@unigestion.edu,3816119883,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-1,4.3,1600000,ENR-767
+Isabella Lopez,i.lopez@unigestion.edu,3429097843,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,4.7,1600000,ENR-768
+Maria Gomez,m.gomez@unigestion.edu,3341159484,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2024-1,1.8,1200000,ENR-769
+Juan Castro,j.castro@unigestion.edu,3783169348,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-1,4.7,1200000,ENR-770
+Mateo Mendoza,m.mendoza@unigestion.edu,3513113067,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-2,3.6,1200000,ENR-771
+  Alejandro Rojas  ,a.rojas@unigestion.edu,3210221077,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-1,3.2,1600000,ENR-772
+Camila Lopez,c.lopez@unigestion.edu,3814456946,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-1,3.7,1600000,ENR-773
+Juan Ramirez,j.ramirez@unigestion.edu,3398072183,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,4.3,800000,ENR-774
+Juan Silva,j.silva@unigestion.edu,3452204034,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-1,1.0,1200000,ENR-775
+Sofia Silva,s.silva@unigestion.edu,3507141679,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-2,4.9,1600000,ENR-776
+Andres Lopez,a.lopez@unigestion.edu,3816119883,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2024-1,4.1,1600000,ENR-777
+Maria Vargas,m.vargas@unigestion.edu,3791160471,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-1,1.3,1200000,ENR-778
+Mateo Ortiz,m.ortiz@unigestion.edu,3672535229,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,3.7,1600000,ENR-779
+Diego Torres,d.torres@unigestion.edu,3651754198,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,1.9,1600000,ENR-780
+Daniel Ramirez,d.ramirez@unigestion.edu,3956757008,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-2,2.7,1600000,ENR-781
+Juan Castro,j.castro@unigestion.edu,3783169348,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2024-1,1.2,1600000,ENR-782
+Maria Gomez,m.gomez@unigestion.edu,3539451767,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-2,1.0,1200000,ENR-783
+Isabella Lopez,i.lopez@unigestion.edu,3429097843,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2024-1,2.4,1200000,ENR-784
+Daniel Perez,d.perez@unigestion.edu,3517489012,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2024-1,2.8,1600000,ENR-785
+  Isabella Mendoza  ,i.mendoza@unigestion.edu,3923016385,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2024-1,2.0,1600000,ENR-786
+Juan Perez,J.PEREZ@UNIGESTION.EDU,3222822414,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-2,4.1,1200000,ENR-787
+Alejandro Herrera,a.herrera@unigestion.edu,3703092772,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-1,3.5,1600000,ENR-788
+Maria Perez,M.PEREZ@UNIGESTION.EDU,3743906559,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-2,3.4,1600000,ENR-789
+Sofia Herrera,s.herrera@unigestion.edu,3384324635,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,2.0,800000,ENR-790
+Juan Herrera,j.herrera@unigestion.edu,3556608907,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-1,4.2,1200000,ENR-791
+Carlos Ramirez,c.ramirez@unigestion.edu,3656270320,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2024-1,4.6,1600000,ENR-792
+Laura Castro,l.castro@unigestion.edu,3338064166,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2024-1,1.7,1600000,ENR-793
+  Camila Lopez  ,c.lopez@unigestion.edu,3814456946,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-1,1.8,1200000,ENR-794
+Carlos Rojas,c.rojas@unigestion.edu,3837255835,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2024-1,3.6,1600000,ENR-795
+Alejandro Lopez,a.lopez@unigestion.edu,3760208989,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2024-1,1.9,1600000,ENR-796
+Mateo Torres,m.torres@unigestion.edu,3975490050,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2024-1,3.7,1200000,ENR-797
+Valeria Mendoza,V.MENDOZA@UNIGESTION.EDU,3932689333,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2024-1,1.6,1200000,ENR-798
+Alejandro Herrera,a.herrera@unigestion.edu,3703092772,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-1,3.4,800000,ENR-799
+Alejandro Diaz,a.diaz@unigestion.edu,3946562779,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-1,4.6,1200000,ENR-800
+Laura Perez,l.perez@unigestion.edu,3599209639,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-2,1.8,1200000,ENR-801
+Diego Rojas,d.rojas@unigestion.edu,3383127958,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-1,2.0,1600000,ENR-802
+Juan Herrera,j.herrera@unigestion.edu,3169275327,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-1,1.5,1200000,ENR-803
+Juan Mendoza,j.mendoza@unigestion.edu,3985747814,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-1,4.7,1600000,ENR-804
+Maria Gomez,m.gomez@unigestion.edu,3539451767,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2024-1,2.7,1600000,ENR-805
+Juan Lopez,j.lopez@unigestion.edu,3479491148,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-1,1.3,1600000,ENR-806
+Sofia Mendoza,s.mendoza@unigestion.edu,3277216722,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-1,4.0,1600000,ENR-807
+Isabella Perez,i.perez@unigestion.edu,3495890157,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-1,2.7,1200000,ENR-808
+Sofia Torres,s.torres@unigestion.edu,3644714166,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-2,2.5,1600000,ENR-809
+Valentina Mendoza,v.mendoza@unigestion.edu,3461500877,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-2,4.9,1600000,ENR-810
+Alejandro Morales,a.morales@unigestion.edu,3445660795,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-2,2.1,1200000,ENR-811
+Isabella Gomez,i.gomez@unigestion.edu,3247433776,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2024-1,3.0,1200000,ENR-812
+Andres Herrera,a.herrera@unigestion.edu,3305743806,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2024-1,3.8,1600000,ENR-813
+Andres Diaz,a.diaz@unigestion.edu,3339278254,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2024-1,1.4,1600000,ENR-814
+juan lopez,j.lopez@unigestion.edu,3479491148,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-1,3.9,1600000,ENR-815
+Maria Ortiz,m.ortiz@unigestion.edu,3453271386,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,1.7,1600000,ENR-816
+Sofia Mendoza,S.MENDOZA@UNIGESTION.EDU,3956196161,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,3.2,800000,ENR-817
+  Carlos Perez  ,c.perez@unigestion.edu,3925388463,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2024-1,4.1,1600000,ENR-818
+  Daniel Perez  ,d.perez@unigestion.edu,3543120051,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2024-1,4.2,1600000,ENR-819
+Juan Mendoza,j.mendoza@unigestion.edu,3302104534,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2024-1,2.4,800000,ENR-820
+Maria Gomez,m.gomez@unigestion.edu,3341159484,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-1,3.9,1200000,ENR-821
+alejandro lopez,a.lopez@unigestion.edu,3760208989,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,2.2,1600000,ENR-822
+Carlos Gomez,c.gomez@unigestion.edu,3617581645,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-2,3.5,1600000,ENR-823
+Andres Perez,a.perez@unigestion.edu,3809829852,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-1,1.3,1600000,ENR-824
+Alejandro Vargas,a.vargas@unigestion.edu,3605377935,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-1,1.0,1600000,ENR-825
+Isabella Lopez,i.lopez@unigestion.edu,3429097843,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2024-1,3.3,1200000,ENR-826
+Isabella Perez,i.perez@unigestion.edu,3900271426,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-1,4.8,1600000,ENR-827
+Andres Diaz,a.diaz@unigestion.edu,3339278254,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-2,4.6,1600000,ENR-828
+Alejandro Castro,a.castro@unigestion.edu,3217981034,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2024-1,4.2,1600000,ENR-829
+Carlos Gomez,c.gomez@unigestion.edu,3617581645,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,2.0,1600000,ENR-830
+Daniel Lopez,d.lopez@unigestion.edu,3122026093,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-1,3.0,1600000,ENR-831
+Laura Torres,l.torres@unigestion.edu,3608520312,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-1,2.4,800000,ENR-832
+Maria Gomez,m.gomez@unigestion.edu,3341159484,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2024-1,4.3,1600000,ENR-833
+Carlos Ramirez,c.ramirez@unigestion.edu,3986296087,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2024-1,1.9,1200000,ENR-834
+Juan Silva,j.silva@unigestion.edu,3452204034,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-2,3.7,1200000,ENR-835
+Alejandro Herrera,a.herrera@unigestion.edu,3703092772,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-1,3.6,1600000,ENR-836
+valentina ortiz,v.ortiz@unigestion.edu,3436931421,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2024-1,3.0,1200000,ENR-837
+alejandro diaz,a.diaz@unigestion.edu,3615053796,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-1,4.3,1600000,ENR-838
+Juan Herrera,j.herrera@unigestion.edu,3169275327,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2024-1,1.8,1200000,ENR-839
+Daniel Lopez,d.lopez@unigestion.edu,3419339522,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2024-1,2.8,1600000,ENR-840
+Valentina Perez,V.PEREZ@UNIGESTION.EDU,3492228805,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-1,1.7,1200000,ENR-841
+Andres Lopez,a.lopez@unigestion.edu,3816119883,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2024-1,2.6,1200000,ENR-842
+Andres Diaz,a.diaz@unigestion.edu,3339278254,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-1,2.9,1200000,ENR-843
+Juan Mendoza,j.mendoza@unigestion.edu,3399329638,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-1,3.5,1200000,ENR-844
+Diego Lopez,D.LOPEZ@UNIGESTION.EDU,3371770362,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-2,3.4,1600000,ENR-845
+Isabella Ortiz,i.ortiz@unigestion.edu,3135211834,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2024-1,2.3,1200000,ENR-846
+Isabella Torres,i.torres@unigestion.edu,3114449735,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-1,2.5,1200000,ENR-847
+Isabella Gomez,i.gomez@unigestion.edu,3289758190,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2024-1,2.4,1600000,ENR-848
+Alejandro Perez,a.perez@unigestion.edu,3451880770,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-1,2.3,1600000,ENR-849
+Sofia Castro,s.castro@unigestion.edu,3632716059,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-2,2.6,1600000,ENR-850
+Alejandro Lopez,a.lopez@unigestion.edu,3760208989,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-1,4.7,1600000,ENR-851
+Maria Gomez,m.gomez@unigestion.edu,3341159484,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-1,4.1,1600000,ENR-852
+Andres Lopez,a.lopez@unigestion.edu,3816119883,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-1,3.8,1600000,ENR-853
+Laura Perez,l.perez@unigestion.edu,3599209639,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-2,3.9,1600000,ENR-854
+Valeria Ramirez,v.ramirez@unigestion.edu,3217728345,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-1,4.2,1600000,ENR-855
+maria rojas,m.rojas@unigestion.edu,3742811840,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-2,3.3,1600000,ENR-856
+juan mendoza,j.mendoza@unigestion.edu,3140605488,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-2,5.0,1600000,ENR-857
+Laura Castro,l.castro@unigestion.edu,3338064166,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2024-1,4.4,1600000,ENR-858
+Alejandro Perez,a.perez@unigestion.edu,3451880770,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-2,4.2,1200000,ENR-859
+Isabella Herrera,i.herrera@unigestion.edu,3333323846,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-2,4.8,1600000,ENR-860
+Alejandro Castro,a.castro@unigestion.edu,3217981034,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-1,1.7,1200000,ENR-861
+Andres Lopez,a.lopez@unigestion.edu,3816119883,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-2,4.7,1600000,ENR-862
+Juan Mendoza,j.mendoza@unigestion.edu,3302104534,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-2,2.0,1600000,ENR-863
+Maria Rojas,m.rojas@unigestion.edu,3742811840,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-2,3.4,1200000,ENR-864
+Isabella Gomez,i.gomez@unigestion.edu,3622504614,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-1,1.5,1200000,ENR-865
+carlos mendoza,c.mendoza@unigestion.edu,3359548613,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-1,2.7,1200000,ENR-866
+Andres Herrera,a.herrera@unigestion.edu,3189616005,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-1,4.3,1600000,ENR-867
+Isabella Mendoza,i.mendoza@unigestion.edu,3506262962,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-1,4.3,1200000,ENR-868
+Alejandro Morales,a.morales@unigestion.edu,3445660795,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-2,4.2,1200000,ENR-869
+Isabella Morales,i.morales@unigestion.edu,3936658868,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-1,2.4,1600000,ENR-870
+Valentina Torres,v.torres@unigestion.edu,3187057596,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-1,1.9,1600000,ENR-871
+Juan Silva,j.silva@unigestion.edu,3452204034,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,2.4,800000,ENR-872
+Isabella Mendoza,i.mendoza@unigestion.edu,3923016385,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,2.0,1600000,ENR-873
+Andres Diaz,a.diaz@unigestion.edu,3513154708,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-1,2.1,1600000,ENR-874
+Alejandro Mendoza,A.MENDOZA@UNIGESTION.EDU,3905599311,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2024-1,2.2,1600000,ENR-875
+Valeria Gomez,v.gomez@unigestion.edu,3896666595,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-1,4.3,1200000,ENR-876
+  Juan Mendoza  ,j.mendoza@unigestion.edu,3540011237,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2024-1,4.5,1200000,ENR-877
+Camila Ramirez,c.ramirez@unigestion.edu,3384650833,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2024-1,4.8,1200000,ENR-878
+Isabella Ortiz,i.ortiz@unigestion.edu,3394506421,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-1,2.6,800000,ENR-879
+Daniel Morales,d.morales@unigestion.edu,3453724999,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2024-1,1.2,1200000,ENR-880
+  Alejandro Mendoza  ,a.mendoza@unigestion.edu,3905599311,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2024-1,2.0,1200000,ENR-881
+Mateo Diaz,m.diaz@unigestion.edu,3900032351,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2024-1,3.5,1600000,ENR-882
+Camila Lopez,c.lopez@unigestion.edu,3814456946,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-1,2.9,1200000,ENR-883
+Juan Mendoza,J.MENDOZA@UNIGESTION.EDU,3985747814,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-1,4.7,1200000,ENR-884
+Alejandro Mendoza,a.mendoza@unigestion.edu,3905599311,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-2,3.3,1200000,ENR-885
+maria castro,m.castro@unigestion.edu,3844147624,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-1,2.5,1600000,ENR-886
+Carlos Ramirez,c.ramirez@unigestion.edu,3986296087,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2024-1,3.0,1600000,ENR-887
+Juan Mendoza,j.mendoza@unigestion.edu,3985747814,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-2,2.6,1200000,ENR-888
+Alejandro Rojas,a.rojas@unigestion.edu,3210221077,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2024-1,1.2,1200000,ENR-889
+Sofia Herrera,s.herrera@unigestion.edu,3726658420,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-1,1.9,1200000,ENR-890
+Laura Castro,l.castro@unigestion.edu,3449482997,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-2,1.4,1600000,ENR-891
+Isabella Perez,i.perez@unigestion.edu,3900271426,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2024-1,1.9,1200000,ENR-892
+Valeria Ortiz,v.ortiz@unigestion.edu,3800282841,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2024-1,4.3,1600000,ENR-893
+Valeria Gomez,v.gomez@unigestion.edu,3896666595,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-1,5.0,800000,ENR-894
+Sofia Lopez,s.lopez@unigestion.edu,3151591684,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2024-1,2.7,1600000,ENR-895
+Isabella Gomez,i.gomez@unigestion.edu,3622504614,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-2,3.8,1600000,ENR-896
+Juan Mendoza,j.mendoza@unigestion.edu,3140605488,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2024-1,2.3,1600000,ENR-897
+Andres Herrera,a.herrera@unigestion.edu,3305743806,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2024-1,1.1,800000,ENR-898
+Maria Castro,m.castro@unigestion.edu,3844147624,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2024-1,3.9,1600000,ENR-899
+Isabella Ortiz,i.ortiz@unigestion.edu,3135211834,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-1,1.3,1600000,ENR-900
+Andres Diaz,a.diaz@unigestion.edu,3513154708,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-1,3.9,1600000,ENR-901
+  Juan Herrera  ,j.herrera@unigestion.edu,3169275327,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-2,2.8,1600000,ENR-902
+Alejandro Castro,a.castro@unigestion.edu,3217981034,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2024-1,1.6,1600000,ENR-903
+Valentina Perez,v.perez@unigestion.edu,3492228805,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-1,4.8,1600000,ENR-904
+Daniel Vargas,d.vargas@unigestion.edu,3479338484,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-2,3.1,1600000,ENR-905
+Carlos Ramirez,c.ramirez@unigestion.edu,3986296087,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2024-1,4.6,1200000,ENR-906
+Valeria Ortiz,v.ortiz@unigestion.edu,3180721081,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2024-1,2.5,1200000,ENR-907
+Isabella Lopez,i.lopez@unigestion.edu,3429097843,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,3.0,1600000,ENR-908
+Valeria Torres,v.torres@unigestion.edu,3137829474,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-2,1.0,1600000,ENR-909
+Juan Rojas,j.rojas@unigestion.edu,3562564400,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-2,2.1,1200000,ENR-910
+Alejandro Lopez,a.lopez@unigestion.edu,3760208989,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2024-1,2.9,1200000,ENR-911
+Laura Ramirez,l.ramirez@unigestion.edu,3493762858,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2024-1,1.7,800000,ENR-912
+laura gomez,l.gomez@unigestion.edu,3109055517,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-2,1.2,1600000,ENR-913
+Andres Silva,a.silva@unigestion.edu,3365032856,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-2,2.1,1600000,ENR-914
+Maria Gomez,m.gomez@unigestion.edu,3539451767,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-2,4.9,1600000,ENR-915
+Juan Herrera,j.herrera@unigestion.edu,3498195882,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-2,2.4,1200000,ENR-916
+Valeria Castro,v.castro@unigestion.edu,3971005340,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-1,1.7,1200000,ENR-917
+Juan Morales,j.morales@unigestion.edu,3653297704,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,2.9,1600000,ENR-918
+Juan Ramirez,J.RAMIREZ@UNIGESTION.EDU,3398072183,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-1,4.4,1600000,ENR-919
+Andres Torres,a.torres@unigestion.edu,3890377509,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2024-1,2.3,1200000,ENR-920
+Sofia Rojas,s.rojas@unigestion.edu,3856116185,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2024-1,3.7,1600000,ENR-921
+Diego Herrera,d.herrera@unigestion.edu,3343976866,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,4.4,1600000,ENR-922
+Andres Perez,a.perez@unigestion.edu,3809829852,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,2.8,1600000,ENR-923
+  Diego Herrera  ,d.herrera@unigestion.edu,3343976866,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-2,1.6,1200000,ENR-924
+Sofia Lopez,s.lopez@unigestion.edu,3151591684,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-1,4.5,1600000,ENR-925
+Valeria Torres,v.torres@unigestion.edu,3137829474,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2024-1,4.2,1200000,ENR-926
+isabella morales,i.morales@unigestion.edu,3936658868,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-2,1.6,1600000,ENR-927
+Sofia Castro,s.castro@unigestion.edu,3632716059,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2024-1,3.2,1600000,ENR-928
+Maria Lopez,m.lopez@unigestion.edu,3735724006,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-2,2.0,1600000,ENR-929
+Juan Castro,j.castro@unigestion.edu,3532676825,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-2,4.0,1600000,ENR-930
+Sofia Rojas,s.rojas@unigestion.edu,3856116185,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-1,2.8,1600000,ENR-931
+Juan Mendoza,j.mendoza@unigestion.edu,3399329638,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,3.1,1600000,ENR-932
+Laura Gomez,L.GOMEZ@UNIGESTION.EDU,3109055517,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2024-1,4.5,1200000,ENR-933
+Valeria Ortiz,v.ortiz@unigestion.edu,3180721081,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-2,2.9,1600000,ENR-934
+Mateo Torres,m.torres@unigestion.edu,3975490050,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-2,3.1,1600000,ENR-935
+Laura Castro,l.castro@unigestion.edu,3449482997,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2024-1,1.4,1600000,ENR-936
+Sofia Lopez,s.lopez@unigestion.edu,3151591684,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2024-1,3.8,1600000,ENR-937
+Diego Ramirez,d.ramirez@unigestion.edu,3716837057,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,2.8,800000,ENR-938
+Andres Diaz,a.diaz@unigestion.edu,3339278254,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2024-1,1.7,1200000,ENR-939
+Maria Perez,m.perez@unigestion.edu,3743906559,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-1,3.9,800000,ENR-940
+Daniel Rojas,d.rojas@unigestion.edu,3116103351,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-1,2.5,1200000,ENR-941
+diego ramirez,d.ramirez@unigestion.edu,3716837057,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-1,1.8,1200000,ENR-942
+Diego Herrera,d.herrera@unigestion.edu,3343976866,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,2.6,800000,ENR-943
+Isabella Perez,i.perez@unigestion.edu,3831944343,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2024-1,4.8,1600000,ENR-944
+Juan Rojas,j.rojas@unigestion.edu,3562564400,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-2,1.3,1200000,ENR-945
+Isabella Gomez,i.gomez@unigestion.edu,3622504614,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-1,1.9,1600000,ENR-946
+Andres Perez,a.perez@unigestion.edu,3809829852,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,2.3,800000,ENR-947
+Maria Gomez,m.gomez@unigestion.edu,3341159484,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2024-1,2.0,1200000,ENR-948
+Laura Ramirez,l.ramirez@unigestion.edu,3493762858,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-1,2.4,1200000,ENR-949
+  Andres Diaz  ,a.diaz@unigestion.edu,3339278254,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2024-1,1.6,800000,ENR-950
+Laura Morales,l.morales@unigestion.edu,3800302406,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-1,2.2,1600000,ENR-951
+Diego Herrera,d.herrera@unigestion.edu,3343976866,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-1,1.5,1200000,ENR-952
+Alejandro Silva,a.silva@unigestion.edu,3583483212,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-1,3.9,800000,ENR-953
+Diego Rojas,d.rojas@unigestion.edu,3383127958,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,4.2,800000,ENR-954
+Daniel Ortiz,D.ORTIZ@UNIGESTION.EDU,3454343382,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,1.1,1600000,ENR-955
+Daniel Lopez,d.lopez@unigestion.edu,3419339522,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-1,3.4,1200000,ENR-956
+Diego Rojas,d.rojas@unigestion.edu,3383127958,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-2,4.0,1200000,ENR-957
+Isabella Mendoza,i.mendoza@unigestion.edu,3923016385,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,3.2,1600000,ENR-958
+Maria Lopez,m.lopez@unigestion.edu,3735724006,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-1,3.0,1600000,ENR-959
+Isabella Mendoza,i.mendoza@unigestion.edu,3923016385,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-1,1.4,1200000,ENR-960
+  Juan Rojas  ,j.rojas@unigestion.edu,3562564400,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-2,1.9,1600000,ENR-961
+Valeria Ortiz,v.ortiz@unigestion.edu,3800282841,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-1,4.7,1200000,ENR-962
+Valeria Ortiz,v.ortiz@unigestion.edu,3932790935,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,1.2,1600000,ENR-963
+Isabella Torres,i.torres@unigestion.edu,3114449735,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,1.1,1600000,ENR-964
+Andres Torres,a.torres@unigestion.edu,3890377509,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2024-1,3.0,1200000,ENR-965
+Alejandro Ortiz,a.ortiz@unigestion.edu,3852429742,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2024-1,1.2,1200000,ENR-966
+Maria Vargas,m.vargas@unigestion.edu,3791160471,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2024-1,1.5,1600000,ENR-967
+Juan Ramirez,j.ramirez@unigestion.edu,3398072183,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2024-1,1.5,1600000,ENR-968
+Carlos Perez,c.perez@unigestion.edu,3925388463,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-1,1.4,1600000,ENR-969
+Sofia Silva,s.silva@unigestion.edu,3507141679,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2024-1,5.0,1200000,ENR-970
+Sofia Rojas,S.ROJAS@UNIGESTION.EDU,3856116185,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2024-1,1.1,1600000,ENR-971
+Laura Torres,l.torres@unigestion.edu,3608520312,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-1,4.5,1200000,ENR-972
+Laura Morales,l.morales@unigestion.edu,3800302406,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2024-1,2.4,1600000,ENR-973
+Daniel Perez,d.perez@unigestion.edu,3517489012,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-1,2.0,1600000,ENR-974
+Isabella Diaz,i.diaz@unigestion.edu,3996515791,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2024-1,4.6,1600000,ENR-975
+Juan Morales,j.morales@unigestion.edu,3653297704,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,3.0,1600000,ENR-976
+daniel morales,d.morales@unigestion.edu,3853172347,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-1,1.8,1600000,ENR-977
+Isabella Ortiz,i.ortiz@unigestion.edu,3394506421,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-2,2.5,1200000,ENR-978
+Valentina Perez,v.perez@unigestion.edu,3492228805,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-2,5.0,1600000,ENR-979
+Maria Vargas,M.VARGAS@UNIGESTION.EDU,3791160471,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-2,3.8,1200000,ENR-980
+Daniel Ramirez,d.ramirez@unigestion.edu,3956757008,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,5.0,1600000,ENR-981
+Juan Castro,j.castro@unigestion.edu,3783169348,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-1,4.5,1600000,ENR-982
+Sofia Herrera,s.herrera@unigestion.edu,3726658420,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-1,1.2,1200000,ENR-983
+Valeria Castro,v.castro@unigestion.edu,3165003728,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2024-1,4.4,1200000,ENR-984
+Isabella Perez,i.perez@unigestion.edu,3831944343,Ing. Marcos Paz,m.paz@unigestion.edu,Ingenieria,DB201,Bases de Datos,3,2023-2,2.4,1200000,ENR-985
+Alejandro Rojas,a.rojas@unigestion.edu,3210221077,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2024-1,2.1,800000,ENR-986
+Juan Castro,j.castro@unigestion.edu,3783169348,Dr. Jorge Marin,j.marin@unigestion.edu,Ciencias,FIS101,Fisica Mecanica,4,2023-2,2.3,1600000,ENR-987
+Juan Perez,j.perez@unigestion.edu,3222822414,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-1,2.6,1200000,ENR-988
+Andres Diaz,a.diaz@unigestion.edu,3513154708,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2024-1,2.1,1600000,ENR-989
+Daniel Perez,d.perez@unigestion.edu,3543120051,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-1,4.7,1600000,ENR-990
+Alejandro Diaz,a.diaz@unigestion.edu,3615053796,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Ingenieria,CS102,Estructuras de Datos,4,2023-2,3.7,1600000,ENR-991
+Mateo Torres,m.torres@unigestion.edu,3975490050,Mg. Clara Vega,c.vega@unigestion.edu,Negocios,ADM101,Fundamentos de Administracion,3,2023-1,4.4,1200000,ENR-992
+valentina perez,v.perez@unigestion.edu,3492228805,Dr. Carlos Ruiz,c.ruiz@unigestion.edu,Matematicas,MAT201,Calculo Diferencial,4,2023-1,2.3,1600000,ENR-993
+Camila Rojas,c.rojas@unigestion.edu,3811920943,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2024-1,4.8,1600000,ENR-994
+Isabella Lopez,I.LOPEZ@UNIGESTION.EDU,3429097843,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2024-1,3.8,1600000,ENR-995
+Isabella Ortiz,i.ortiz@unigestion.edu,3135211834,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-2,4.5,1200000,ENR-996
+Isabella Diaz,i.diaz@unigestion.edu,3996515791,Dra. Ana Silva,a.silva@unigestion.edu,Ingenieria,CS101,Introduccion a la Programacion,4,2023-2,1.2,1600000,ENR-997
+Mateo Castro,m.castro@unigestion.edu,3138393962,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-1,1.2,1200000,ENR-998
+Daniel Perez,d.perez@unigestion.edu,3543120051,Prof. Luis Gomez,l.gomez@unigestion.edu,Humanidades,HUM105,Etica Profesional,2,2023-2,2.7,800000,ENR-999
+Juan Diaz,j.diaz@unigestion.edu,3740197929,Dra. Marta Peña,m.pena@unigestion.edu,Humanidades,HUM201,Historia Universal,3,2023-1,2.2,1200000,ENR-1000

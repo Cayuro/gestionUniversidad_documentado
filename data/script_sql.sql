@@ -1,0 +1,66 @@
+CREATE TABLE IF NOT EXISTS "student" (
+	"id" SERIAL NOT NULL UNIQUE,
+	"name" VARCHAR(50) NOT NULL,
+	"email" VARCHAR(50) NOT NULL UNIQUE,
+	"phone" VARCHAR(15) NOT NULL UNIQUE,
+	PRIMARY KEY("id")
+);
+
+
+
+
+CREATE TABLE IF NOT EXISTS "profesor" (
+	"id" SMALLSERIAL NOT NULL UNIQUE,
+	"name" VARCHAR(50) NOT NULL,
+	"email" VARCHAR(50) NOT NULL UNIQUE,
+	"department_id" INTEGER,
+	PRIMARY KEY("id")
+);
+
+
+
+
+CREATE TABLE IF NOT EXISTS "course" (
+	"code" VARCHAR(20) NOT NULL UNIQUE,
+	"name" VARCHAR(50) NOT NULL UNIQUE,
+	"credits" SMALLINT NOT NULL,
+	"profesor_id" INTEGER,
+	PRIMARY KEY("code")
+);
+
+
+
+
+CREATE TABLE IF NOT EXISTS "department" (
+	"id" SERIAL NOT NULL UNIQUE,
+	"name" VARCHAR(50) NOT NULL UNIQUE,
+	PRIMARY KEY("id")
+);
+
+
+
+
+CREATE TABLE IF NOT EXISTS "enrrollments" (
+	"id" SERIAL NOT NULL UNIQUE,
+	"semester" VARCHAR(15) NOT NULL,
+	"grade" DECIMAL(2,1) NOT NULL,
+	"tuition_fee" INTEGER NOT NULL,
+	"student_id" INTEGER NOT NULL,
+	"course_code" VARCHAR(20) NOT NULL,
+	PRIMARY KEY("id")
+);
+
+
+
+ALTER TABLE "enrrollments"
+ADD FOREIGN KEY("student_id") REFERENCES "student"("id")
+ON UPDATE NO ACTION ON DELETE NO ACTION;
+ALTER TABLE "course"
+ADD FOREIGN KEY("profesor_id") REFERENCES "profesor"("id")
+ON UPDATE NO ACTION ON DELETE NO ACTION;
+ALTER TABLE "profesor"
+ADD FOREIGN KEY("department_id") REFERENCES "department"("id")
+ON UPDATE NO ACTION ON DELETE NO ACTION;
+ALTER TABLE "enrrollments"
+ADD FOREIGN KEY("course_code") REFERENCES "course"("code")
+ON UPDATE NO ACTION ON DELETE NO ACTION;

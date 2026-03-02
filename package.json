@@ -1,0 +1,31 @@
+{
+  "name": "ejerciciobd",
+  "version": "1.0.0",
+  "description": "**Módulo:** Arquitectura de Persistencia\r **Cohorte:** M4\r **Duración Estimada:** 6-8 horas\r **Nivel:** Intermedio-Avanzado",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanEstebanHG12/EjercicioBD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/JuanEstebanHG12/EjercicioBD/issues"
+  },
+  "homepage": "https://github.com/JuanEstebanHG12/EjercicioBD#readme",
+  "dependencies": {
+    "csv-parse": "^6.1.0",
+    "csv-parser": "^3.2.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "fs": "^0.0.1-security",
+    "mongoose": "^9.2.3",
+    "pg": "^8.19.0"
+  }
+}
